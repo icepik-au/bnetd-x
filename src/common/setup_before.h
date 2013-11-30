@@ -194,7 +194,7 @@ const char * const BNETD_SERVERNAME = "BNETD-X Realm";
 const char * const BNETD_IRC_ADDRS = ""; /* this means none */
 const int BNETD_IRC_PORT = 6667; /* used if port not specified */
 const char * const BNETD_IRC_NETWORK_NAME  = "BNETD-X";
-const char * const BNETD_TRACK_ADDRS = "track.pvpgn.org";
+const char * const BNETD_TRACK_ADDRS = "track.bnetd-x.org";
 const int BNETD_TRACK_PORT = 6114; /* use this port if not specified */
 const int BNETD_DEF_TEST_PORT = 6112; /* default guess for UDP test port */
 const int BNETD_MIN_TEST_PORT = 6112;
@@ -239,7 +239,7 @@ const int BNTRACKD_UPDATE = 150;
 const int BNTRACKD_GRANULARITY = 5;
 const int BNTRACKD_SERVER_PORT = 6114;
 const char * const BNTRACKD_PIDFILE = ""; /* this means "none" */
-const char * const BNTRACKD_OUTFILE = "pvpgnlist.txt";
+const char * const BNTRACKD_OUTFILE = "bnetd-xlist.txt";
 #ifdef WIN32
 const char * const BNTRACKD_PROCESS = "process.pl";
 const char * const BNTRACKD_LOGFILE = "bntrackd.log";
@@ -251,7 +251,7 @@ const char * const BNTRACKD_LOGFILE = "logs/bntrackd.log";
 /***************************************************************/
 /* default values for W3XP anongameinfo packet */
 
-const char * const PVPGN_DEFAULT_URL = "www.pvpgn.org";
+const char * const PVPGN_DEFAULT_URL = "www.bnetd-x.org";
 
 const char * const PVPGN_PG_1V1_DESC = "Solo Games";
 const char * const PVPGN_AT_2V2_DESC = "2 player team";

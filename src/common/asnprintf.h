@@ -30,7 +30,7 @@
 #define SPECIAL	32		/* 0x */
 #define LARGE	64		/* use 'ABCDEF' instead of 'abcdef' */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct {

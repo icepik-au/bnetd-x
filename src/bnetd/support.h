@@ -19,7 +19,7 @@
 #ifndef INCLUDED_SUPPORT_PROTOS
 #define INCLUDED_SUPPORT_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

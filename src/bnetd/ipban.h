@@ -35,7 +35,7 @@
 #define IPBAN_FUNC_UNKNOWN 6
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -80,7 +80,7 @@ typedef struct ipban_entry_struct
 #include "connection.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

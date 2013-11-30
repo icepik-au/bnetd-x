@@ -36,7 +36,7 @@
 #define ACCOUNT_FLAG_NONE	0
 #define ACCOUNT_FLAG_FLOADED	1	/* friends list loaded */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -78,7 +78,7 @@ t_account;
 #include "connection.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

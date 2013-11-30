@@ -20,7 +20,7 @@
 
 #ifndef HAVE_STRSEP
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char * strsep(char * * str, char const * delim);

@@ -46,33 +46,33 @@ A. the code flow before fdwatch
     with the sockets of every t_connection the server has (read availability)
     - if any of this t_connections have packets in the outqueue (they need to 
     send data) then the sockets are also added for write availability
-    - then pvpgn calls select()/poll() on the socket inspection list
-    - after the syscall returns, pvpgn cycles through each address configured
+    - then bnetd-x calls select()/poll() on the socket inspection list
+    - after the syscall returns, bnetd-x cycles through each address configured
     in bnetd.conf and checks if they are read available (if a new connection 
     is to be made)
-    - pvpgn doesnt want to accept new connections when in shutdown phase but 
+    - bnetd-x doesnt want to accept new connections when in shutdown phase but 
     it did it the wrong way: it completly ignored the listening sockets if 
     in shutdown phase, this made that once a connection was pending while in 
     shutdown phase, select/poll imediatly returns because it has it in the read 
-    availability list and thus pvpgn was using 99% cpu while in shutdown phase
-    - anyway, after this, pvpgn does a O(n) cycle through each t_connection to 
+    availability list and thus bnetd-x was using 99% cpu while in shutdown phase
+    - anyway, after this, bnetd-x does a O(n) cycle through each t_connection to 
     check if its socket is read/write available
     - problem is that when it was using poll() (the common case on Unices) to 
     check if a socket was returned as read/write available by poll() it was 
     using another O(n) function thus making the total cycle of O(n^2)
     - while cycling through each connection to inspect if its socket was 
-    returned available by select/poll , pvpgn also checks if the connection 
+    returned available by select/poll , bnetd-x also checks if the connection 
     is in destroy state (conn_state_destroy) and if so it destroys it
 
 B. the code flow after fdwatch
     - I have tried to get every bit of speed I could from the design, so some 
     things while it may look complex they have the reason of speed behind
     - just like the old code flow main calls server_process()
-    - here pvpgn does some single time initializations
+    - here bnetd-x does some single time initializations
     - different than before, here, in the single time intializations code I also 
     add the listening sockets to the fdwatch socket inspection list (also 
     the code will need to update this list when receiving SIGHUP)
-    - then pvpgn enters main server loop
+    - then bnetd-x enters main server loop
     - the code first treats any received events (just like the old code)
     - then it calls fdwatch() to inspect the sockets state
     - then it calls conn_reap() to destroy the conn_state_destroy connections
@@ -107,7 +107,7 @@ A: depending on the chosen backend it calls select or poll, or kqueue etc...
 For some backends it has to do some work before calling the syscall. Ex. for 
 select() and poll() it needs to copy from a template list of sockets to inspect 
 to the actual working set. The reason why depends on the backend but it really is
-a limitation of the how the syscall works and there is nothing pvpgn that can be
+a limitation of the how the syscall works and there is nothing bnetd-x that can be
 made to not do that. For example in the poll backend, one might argue that 
 instead of updating a template and copy it to a working array before each poll(), 
 we should update the working set. But that also means that before calling poll(),
@@ -133,7 +133,7 @@ functions cycle through each socket which was returned ready by the last
 fdwatch() call, and calls the handler function (which was set when the socket 
 was added to the socket inspection list) giving it arguments a void * parameter 
 (also set when socket was added to the inspection list), and the type of readiness
-(read/write). Currently, pvpgn has 3 possible handlers: handle_tcp, handle_udp 
+(read/write). Currently, bnetd-x has 3 possible handlers: handle_tcp, handle_udp 
 and handle_accept. Each of this calls acordingly sd_accept, sd_tcpinput, 
 sd_tcpoutput, sd_udpinput (UDP sends are done directly, not queueing them and 
 checking for socket readiness to write, maybe this is another bug ?)

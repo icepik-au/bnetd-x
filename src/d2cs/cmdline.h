@@ -19,7 +19,7 @@
 
 #ifndef __D2CS_CMDLINE_H_PROTOS__
 #define __D2CS_CMDLINE_H_PROTOS__
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

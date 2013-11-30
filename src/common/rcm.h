@@ -27,7 +27,7 @@
 
 #include "common/elist.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* reference change mechanism main object
@@ -57,7 +57,7 @@ typedef struct {
 #ifndef __RCM_H_PROTOS__
 #define __RCM_H_PROTOS__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void rcm_init(t_rcm *rcm);

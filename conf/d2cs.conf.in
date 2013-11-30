@@ -40,8 +40,8 @@ servaddrs		=	0.0.0.0:6113
 # WARNING!! DO NOT USE "127.0.0.1" or "localhost" !!!
 gameservlist		=	<d2gs-IP>,<another-d2gs-IP>
 
-# Put here the address and port of the machine running bnetd (or pvpgn.exe). 
-# If you run d2cs on the same machine as bnetd (or pvpgn.exe) then here you 
+# Put here the address and port of the machine running bnetd (or bnetd-x.exe). 
+# If you run d2cs on the same machine as bnetd (or bnetd-x.exe) then here you 
 # put the IP of that machine.
 #
 # YOU MUST CHANGE THIS OR D2CS WON'T WORK PROPERLY

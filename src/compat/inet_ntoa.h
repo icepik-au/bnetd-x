@@ -30,7 +30,7 @@
 # include <winsock2.h>
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char const * inet_ntoa(struct in_addr const * addr);

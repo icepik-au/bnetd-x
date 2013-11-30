@@ -26,7 +26,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef char t_wolhash[9];
@@ -43,7 +43,7 @@ typedef char t_wolhash[9];
 #define INCLUDED_WOLHASH_PROTOS
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int wol_hash(t_wolhash * hashout, unsigned int size, void const * datain);

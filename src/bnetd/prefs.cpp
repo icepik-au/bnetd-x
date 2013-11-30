@@ -30,7 +30,7 @@
 
 #define NONE 0
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

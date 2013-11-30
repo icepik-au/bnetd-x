@@ -90,7 +90,7 @@
 extern std::FILE * hexstrm; /* from main.c */
 extern int g_ServiceStatus;
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

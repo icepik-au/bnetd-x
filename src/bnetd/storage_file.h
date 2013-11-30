@@ -21,7 +21,7 @@
 
 #include "storage.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -45,7 +45,7 @@ typedef struct {
 #ifndef INClUDED_STORAGE_FILE_PROTOS
 #define INClUDED_STORAGE_FILE_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

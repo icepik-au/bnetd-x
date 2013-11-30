@@ -20,7 +20,7 @@
 #ifndef INCLUDED_BNETTIME_TYPES
 #define INCLUDED_BNETTIME_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct
@@ -49,7 +49,7 @@ typedef struct
 #include "common/bn_type.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_bnettime secs_to_bnettime(double secs) ;

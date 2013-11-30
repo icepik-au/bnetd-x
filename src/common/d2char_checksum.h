@@ -20,7 +20,7 @@
 
 #define D2CHARSAVE_CHECKSUM_OFFSET			0x0C
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int d2charsave_checksum(unsigned char const * data, unsigned int len, unsigned int offset);

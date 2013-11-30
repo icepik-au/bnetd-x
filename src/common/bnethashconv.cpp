@@ -23,7 +23,7 @@
 #include "common/eventlog.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void bnhash_to_hash(bn_int const * bnhash, t_hash * hash)

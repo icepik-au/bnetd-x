@@ -35,7 +35,7 @@
 #include "common/xalloc.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn;
+using namespace bnetd-x;
 
 /* FIXME: everywhere: add checks for NULL pointers */
 

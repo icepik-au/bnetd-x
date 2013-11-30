@@ -28,7 +28,7 @@
 
 #define BUFSIZE 1024
 
-using namespace pvpgn::bni;
+using namespace bnetd-x::bni;
 
 namespace
 {

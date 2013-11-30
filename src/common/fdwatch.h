@@ -24,7 +24,7 @@
 
 #include "common/elist.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef enum {

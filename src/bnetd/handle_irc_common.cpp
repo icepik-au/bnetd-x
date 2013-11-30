@@ -40,7 +40,7 @@
 
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -179,7 +179,7 @@ static int handle_irc_common_line(t_connection * conn, char const * ircline)
 	return -1;
     }
 
-    //amadeo: code was sent by some unknown fellow of pvpgn, prevents buffer-overflow for
+    //amadeo: code was sent by some unknown fellow of bnetd-x, prevents buffer-overflow for
     // too long irc-lines
     //PELISH: According to RFC2812 we do truncation on 512 byte
 

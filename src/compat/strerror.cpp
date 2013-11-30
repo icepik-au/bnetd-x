@@ -21,7 +21,7 @@
 #include <cstring>
 #include <winsock2.h>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char const * pstrerror(int errornum)

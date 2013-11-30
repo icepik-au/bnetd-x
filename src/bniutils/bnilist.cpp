@@ -26,7 +26,7 @@
 #include "fileio.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn::bni;
+using namespace bnetd-x::bni;
 
 namespace
 {

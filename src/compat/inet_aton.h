@@ -65,7 +65,7 @@
 # include <arpa/inet.h>
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int inet_aton(char const * cp, struct in_addr * addr);

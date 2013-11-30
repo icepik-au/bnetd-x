@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -49,7 +49,7 @@
 
 #define MAX_LEVEL 100
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -983,7 +983,7 @@ static int _anongame_search_found(int queue)
 	    trans_net(conn_get_addr(player[queue][i]), &w3ip, &w3port);
 
 	    /* if ip to send is 0.0.0.0 (which will not work anyway) try
-	     * to guess the reachable IP of pvpgn by using the local
+	     * to guess the reachable IP of bnetd-x by using the local
 	     * endpoing address of the bnet class connection */
 	    if (!w3ip)
 		w3ip = conn_get_real_local_addr(player[queue][i]);

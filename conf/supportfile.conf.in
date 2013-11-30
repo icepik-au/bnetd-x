@@ -1,5 +1,5 @@
 # this file contains the names of all files that need to be installed in the filedir
-# (but that aren't any longer part of the pvpgn package)
+# (but that aren't any longer part of the bnetd-x package)
 # some lines are commented out, cause they weren't installed by default in older versions
 
 IX86ver1.mpq

@@ -41,7 +41,7 @@
 
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -76,7 +76,7 @@ t_anongame_wol_player;
 # include "connection.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

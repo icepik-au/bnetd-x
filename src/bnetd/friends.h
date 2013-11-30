@@ -19,7 +19,7 @@
 
 #include "account.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

@@ -17,7 +17,7 @@
 #ifndef INCLUDED_TOPIC_TYPES
 #define INCLUDED_TOPIC_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -46,7 +46,7 @@ t_topic;
 #ifndef INCLUDED_TOPIC_PROTOS
 #define INCLUDED_TOPIC_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

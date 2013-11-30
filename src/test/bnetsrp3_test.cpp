@@ -23,7 +23,7 @@
 #include "common/bnetsrp3.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn;
+using namespace bnetd-x;
 
 int main()
 {

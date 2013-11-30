@@ -21,7 +21,7 @@
 
 #include <ctime>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -66,7 +66,7 @@ extern std::time_t now;
 #ifndef INCLUDED_SERVER_PROTOS
 #define INCLUDED_SERVER_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

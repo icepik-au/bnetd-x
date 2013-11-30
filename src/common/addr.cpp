@@ -32,7 +32,7 @@
 #include "common/xalloc.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static char const * netaddr_num_to_addr_str(unsigned int netipaddr, unsigned int netmask);

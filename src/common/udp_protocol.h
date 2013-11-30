@@ -19,7 +19,7 @@
 #ifndef INCLUDED_UDP_PROTOCOL_TYPES
 #define INCLUDED_UDP_PROTOCOL_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /*

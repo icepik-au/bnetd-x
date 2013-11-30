@@ -42,7 +42,7 @@
 #define ILLEGAL_ID -1
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static int gurp_gname2id(const char *name);

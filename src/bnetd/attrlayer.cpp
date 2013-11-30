@@ -27,7 +27,7 @@
 #include "prefs.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

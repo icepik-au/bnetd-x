@@ -26,7 +26,7 @@
 
 /************************************************************/
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int bn_byte_tag_get(bn_byte const * src, char * dst, unsigned int len)

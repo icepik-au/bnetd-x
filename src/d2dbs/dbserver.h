@@ -20,7 +20,7 @@
 
 #include "common/list.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

@@ -11,7 +11,7 @@ endif(COMMAND cmake_policy)
 # since cmake 2.4.1
 set(CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE ON)
 
-project(pvpgn)
+project(bnetd-x)
 
 option(WITH_BNETD "compile the bnetd target" ON)
 option(WITH_D2CS "compile the d2cs target" ON)

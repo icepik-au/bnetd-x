@@ -31,7 +31,7 @@
 #endif
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static std::FILE *           eventstrm=NULL;

@@ -19,7 +19,7 @@
 #include "d2char_checksum.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int d2charsave_checksum(unsigned char const * data, unsigned int len,unsigned int offset)

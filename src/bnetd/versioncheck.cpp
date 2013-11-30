@@ -2,7 +2,7 @@
  * Copyright (C) 2000 Onlyer (onlyer@263.net)
  * Copyright (C) 2001 Ross Combs (ross@bnetd.org)
  * Copyright (C) 2002 Gianluigi Tiesi (sherpya@netfarm.it)
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -43,7 +43,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

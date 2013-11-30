@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004   CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004   CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -24,7 +24,7 @@
 #include <cstdarg>
 #include "common/eventlog.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
           
 extern int gui_lvprintf(t_eventlog_level l, const char *format, va_list arglist);

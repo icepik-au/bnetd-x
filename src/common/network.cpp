@@ -33,7 +33,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int net_recv(int sock, void *buff, int len)

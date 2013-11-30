@@ -13,7 +13,7 @@
 #include "cdb_int.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 int

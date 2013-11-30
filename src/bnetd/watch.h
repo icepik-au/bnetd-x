@@ -27,7 +27,7 @@
 #include "connection.h"
 #include "common/tag.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

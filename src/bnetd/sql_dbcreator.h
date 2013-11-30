@@ -19,7 +19,7 @@
 
 #include "common/list.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -81,7 +81,7 @@ t_db_layout;
 # include "sql_common.h"
 #undef SQL_INTERNAL
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

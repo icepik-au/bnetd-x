@@ -19,7 +19,7 @@
 #ifndef __CDBHASH_H_INCLUDED__
 #define __CDBHASH_H_INCLUDED__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef unsigned int t_cdbhash;

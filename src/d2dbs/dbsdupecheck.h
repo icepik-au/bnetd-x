@@ -19,7 +19,7 @@
 #define DBSDUPECHECK_CONTAINS_DUPE        0
 #define DBSDUPECHECK_CONTAINS_NO_DUPE     1
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

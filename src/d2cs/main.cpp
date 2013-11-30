@@ -55,8 +55,8 @@
 #include "version.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn::d2cs;
-using namespace pvpgn;
+using namespace bnetd-x::d2cs;
+using namespace bnetd-x;
 
 #ifdef WIN32
 char serviceLongName[] = "d2cs service";

@@ -83,7 +83,7 @@ sub convert_cdb2sql {
 sub header {
     print STDERR "Account files to db accounts converting tool.\n";
     print STDERR " Copyright (C) 2002,2005 Dizzy (dizzy\@roedu.net)\n";
-    print STDERR " Player Versus Player Gaming Network (www.pvpgn.org)\n\n";
+    print STDERR " Player Versus Player Gaming Network (www.bnetd-x.org)\n\n";
 }
 
 sub usage {

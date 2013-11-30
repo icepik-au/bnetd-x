@@ -22,7 +22,7 @@
 #include "common/bn_type.h"
 #include "dbserver.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

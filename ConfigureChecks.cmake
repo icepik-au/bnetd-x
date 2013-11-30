@@ -66,7 +66,7 @@ if(HAVE_LIBRESOLV)
 endif(HAVE_LIBRESOLV)
 if(HAVE_LIBBIND)
 	# this is used for BeOS BONE, when someone will want
-	# to test pvpgn with cmake on BeOS please contact us
+	# to test bnetd-x with cmake on BeOS please contact us
 	SET(CMAKE_REQUIRED_LIBRARIES ${CMAKE_REQUIRED_LIBRARIES} bind)
 	SET(NETWORK_LIBRARIES ${NETWORK_LIBRARIES} bind)
 endif(HAVE_LIBBIND)

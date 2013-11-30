@@ -25,7 +25,7 @@
 #include "d2charfile.h"
 #include "gamequeue.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

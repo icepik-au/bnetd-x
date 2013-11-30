@@ -27,7 +27,7 @@
 # define HAVE_STRNCASECMP /* don't include our own function */
 #else
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int strncasecmp(char const * str1, char const * str2, unsigned int cnt);

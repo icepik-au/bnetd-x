@@ -36,7 +36,7 @@ LICENSE
 
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern gs_peerchat_ctx * gs_peerchat_create()

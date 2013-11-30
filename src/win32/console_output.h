@@ -22,7 +22,7 @@
 #ifndef CONSOLE_OUTPUT_INCLUDED
 #define CONSOLE_OUTPUT_INCLUDED
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class Console {

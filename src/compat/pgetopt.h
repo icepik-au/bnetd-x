@@ -30,7 +30,7 @@
 
 #ifndef HAVE_GETOPT
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* For communication from `getopt' to the caller.

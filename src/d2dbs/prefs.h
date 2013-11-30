@@ -19,7 +19,7 @@
 #ifndef INCLUDED_PREFS_H
 #define INCLUDED_PREFS_H
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

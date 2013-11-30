@@ -30,7 +30,7 @@
 
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int gettimeofday(struct timeval * tv, struct timezone * tz)

@@ -76,7 +76,7 @@
 #include "common/setup_after.h"
 #include "common/flags.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

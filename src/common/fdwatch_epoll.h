@@ -33,7 +33,7 @@
 #include "scoped_array.h"
 #include "fdwbackend.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class FDWEpollBackend: public FDWBackend

@@ -16,7 +16,7 @@
 #ifndef INCLUDED_COMMAND_GROUPS_TYPES
 #define INCLUDED_COMMAND_GROUPS_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -42,7 +42,7 @@ typedef struct
 #ifndef INCLUDED_COMMAND_GROUPS_PROTOS
 #define INCLUDED_COMMAND_GROUPS_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

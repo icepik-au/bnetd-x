@@ -31,7 +31,7 @@
 
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static const char small_digits[] = "0123456789abcdef";

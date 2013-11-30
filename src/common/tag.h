@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 1998  Mark Baysinger (mbaysing@ucsd.edu)
  * Copyright (C) 1998,1999,2000  Ross Combs (rocombs@cs.nmsu.edu)
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  * Copyright (C) 2007  Pelish (pelish@gmail.com)
  *
  * This program is free software; you can redistribute it and/or
@@ -29,7 +29,7 @@
 #undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef t_uint32	t_tag;
@@ -192,7 +192,7 @@ typedef enum {
 #define EXTENSIONTAG_SMK "kms."
 #define EXTENSIONTAG_MNG "gnm."
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_clienttag clienttag_str_to_uint(char const * clienttag);

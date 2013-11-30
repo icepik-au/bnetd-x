@@ -32,7 +32,7 @@
 #define D2CHARINFO_VERSION			0x00010000
 #define D2CHARINFO_PORTRAIT_PADSIZE		30
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct

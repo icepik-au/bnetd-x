@@ -11,7 +11,7 @@
 
 ##############################################################################
 # Storage section                                                            #
-# storage_path will tell pvpgn how and where from/to to read/write accounts  #
+# storage_path will tell bnetd-x how and where from/to to read/write accounts  #
 # right now it supports 2 "drivers" : file and sql                           #
 #                                                                            #
 # Syntax:                                                                    #
@@ -32,19 +32,19 @@
 # - "user" : db username                                                     #
 # - "pass" : db password                                                     #
 # - "default" : specify the UID to use for the default account data          #
-# - "prefix" : prefix to use for all pvpgn tables (default "")               #
+# - "prefix" : prefix to use for all bnetd-x tables (default "")               #
 #                                                                            #
 # Examples:                                                                  #
 # storage_path = file:mode=plain;dir=var\users;clan=var\clans;team=var\teams\;default=conf\bnetd_default_user.plain
 # storage_path = file:mode=cdb;dir=var\userscdb;clan=var\clans;team=var\teams\;default=conf\bnetd_default_user.cdb
-# storage_path = sql:mode=mysql;host=127.0.0.1;name=PVPGN;user=pvpgn;pass=pvpgnrocks;default=0;prefix=pvpgn_
-# storage_path = sql:mode=pgsql;host=127.0.0.1;name=pvpgn;user=pvpgn;pass=pvpgnrocks;default=0;prefix=pvpgn_
-# storage_path = sql:mode=sqlite3;name=var\users.db;default=0;prefix=pvpgn_
-# storage_path = sql:mode=odbc;name=PVPGN;prefix=pvpgn_
-# storage_path = sql2:mode=mysql;host=127.0.0.1;name=PVPGN;user=pvpgn;pass=pvpgnrocks;default=0;prefix=pvpgn_
-# storage_path = sql2:mode=pgsql;host=127.0.0.1;name=pvpgn;user=pvpgn;pass=pvpgnrocks;default=0;prefix=pvpgn_
-# storage_path = sql2:mode=sqlite3;name=var\users.db;default=0;prefix=pvpgn_
-# storage_path = sql2:mode=odbc;name=PVPGN;prefix=pvpgn_
+# storage_path = sql:mode=mysql;host=127.0.0.1;name=PVPGN;user=bnetd-x;pass=bnetd-xrocks;default=0;prefix=bnetd-x_
+# storage_path = sql:mode=pgsql;host=127.0.0.1;name=bnetd-x;user=bnetd-x;pass=bnetd-xrocks;default=0;prefix=bnetd-x_
+# storage_path = sql:mode=sqlite3;name=var\users.db;default=0;prefix=bnetd-x_
+# storage_path = sql:mode=odbc;name=PVPGN;prefix=bnetd-x_
+# storage_path = sql2:mode=mysql;host=127.0.0.1;name=PVPGN;user=bnetd-x;pass=bnetd-xrocks;default=0;prefix=bnetd-x_
+# storage_path = sql2:mode=pgsql;host=127.0.0.1;name=bnetd-x;user=bnetd-x;pass=bnetd-xrocks;default=0;prefix=bnetd-x_
+# storage_path = sql2:mode=sqlite3;name=var\users.db;default=0;prefix=bnetd-x_
+# storage_path = sql2:mode=odbc;name=PVPGN;prefix=bnetd-x_
 #----------------------------------------------------------------------------#
 
 storage_path = file:mode=plain;dir=var\users;clan=var\clans;team=var\teams;default=conf\bnetd_default_user.plain
@@ -422,7 +422,7 @@ track = 60
 # Use a comma delimited list of hostnames with optional UDP port numbers
 # after colons. (port 6114 is the default for the newer tracking protocol)
 #trackaddrs = "track.bnetd.org,localhost:9999"
-#trackaddrs = "track.pvpgn.org"
+#trackaddrs = "track.bnetd-x.org"
 
 # Change these to match your system, for example:
 location = "unknown"

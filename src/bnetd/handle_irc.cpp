@@ -49,7 +49,7 @@
 #include "server.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -265,7 +265,7 @@ static int _handle_privmsg_command(t_connection * conn, int numparams, char ** p
 	    e = irc_get_listelems(params[0]);
 	    /* FIXME: support wildcards! */
 
-		/* start amadeo: code was sent by some unkown fellow of pvpgn (maybe u wanna give us your name
+		/* start amadeo: code was sent by some unkown fellow of bnetd-x (maybe u wanna give us your name
 		   for any credits), it adds nick-registration, i changed some things here and there... */
 	    for (i=0;((e)&&(e[i]));i++) {
     		if (strcasecmp(e[i],"NICKSERV")==0) {

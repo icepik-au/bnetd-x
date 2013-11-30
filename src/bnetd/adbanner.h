@@ -25,7 +25,7 @@
 #include "common/scoped_ptr.h"
 #include "common/bn_type.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

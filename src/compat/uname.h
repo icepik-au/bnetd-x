@@ -24,7 +24,7 @@
 # define SYS_NMLN 64
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 struct utsname
@@ -48,7 +48,7 @@ struct utsname
 #define INCLUDED_UNAME_PROTOS
 
 #ifndef HAVE_UNAME
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int uname(struct utsname * buf);

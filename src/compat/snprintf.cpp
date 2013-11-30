@@ -23,7 +23,7 @@
 
 #if !defined(HAVE_SNPRINTF) && !defined(HAVE__SNPRINTF)
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int snprintf(char *str, size_t size, const char *format, ...)

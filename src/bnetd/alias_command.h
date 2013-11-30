@@ -29,7 +29,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -66,7 +66,7 @@ typedef struct
 #include "connection.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

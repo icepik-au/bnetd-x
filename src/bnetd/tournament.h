@@ -16,7 +16,7 @@
 #ifndef INCLUDED_TOURNAMENT_TYPES
 #define INCLUDED_TOURNAMENT_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -69,7 +69,7 @@ typedef struct
 # include "account.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

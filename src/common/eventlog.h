@@ -19,7 +19,7 @@
 #ifndef INCLUDED_EVENTLOG_TYPES
 #define INCLUDED_EVENTLOG_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef enum
@@ -48,7 +48,7 @@ typedef enum
 
 #include <cstdio>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void eventlog_set_debugmode(int debugmode);

@@ -2,7 +2,7 @@
 /*
 ** PHP implementation of the BNETD-X Password Hash Algorithm.
 
-** Copyright 2004 Aaron (aaron@pvpgn.org)
+** Copyright 2004 Aaron (aaron@bnetd-x.org)
 
 ** This code is available under the GNU Lesser General Public License:
 ** http://www.gnu.org/licenses/lgpl.txt
@@ -19,7 +19,7 @@
 ** (Based on the SHA algorithm as given in "Applied Cryptography")
 
 */
-function str2blks_pvpgn($str) {
+function str2blks_bnetd-x($str) {
 	$nblk = ((strlen($str) + 8) >> 6) + 1;
 	
 	for($i=0; $i < $nblk * 16; $i++) $blks[$i] = 0;
@@ -74,8 +74,8 @@ function kt($t) {
 		return  0xca62 << 16 | 0xc1d6;
 	}
 }
-function pvpgn_hash($str) {
-	$x = str2blks_pvpgn($str);
+function bnetd-x_hash($str) {
+	$x = str2blks_bnetd-x($str);
 		
 	$a =  0x6745 << 16 | 0x2301;
 	$b =  0xefcd << 16 | 0xab89;

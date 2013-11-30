@@ -4,7 +4,7 @@
 
 #include "storage_file.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

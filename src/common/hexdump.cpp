@@ -24,7 +24,7 @@
 #include "common/eventlog.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void hexdump(std::FILE * stream, void const * data, unsigned int len)

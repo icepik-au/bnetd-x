@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2000 Rob Crittenden (rcrit@greyoak.com)
  * Copyright (C) 2002 Gianluigi Tiesi (sherpya@netfarm.it)
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  * Copyright (C) 2008 Pelish (pelish@gmail.com)
  *
  * This program is free software; you can redistribute it and/or
@@ -33,7 +33,7 @@
 #include "common/xalloc.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

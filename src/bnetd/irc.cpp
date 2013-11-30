@@ -58,7 +58,7 @@
 #include "anongame_wol.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -1218,7 +1218,7 @@ extern int irc_send_motd(t_connection * conn)
    if (motd_failed) {
       irc_send(conn,RPL_MOTDSTART,":- Failed to load motd, sending default motd              ");
       irc_send(conn,RPL_MOTD,":- ====================================================== ");
-      irc_send(conn,RPL_MOTD,":-                 http://www.pvpgn.org                   ");
+      irc_send(conn,RPL_MOTD,":-                 http://www.bnetd-x.org                   ");
       irc_send(conn,RPL_MOTD,":- ====================================================== ");
    }
    irc_send(conn,RPL_ENDOFMOTD,":End of /MOTD command");

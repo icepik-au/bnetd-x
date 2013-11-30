@@ -24,7 +24,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static int nodata; /* if data points to this, then the entry was actually deleted */

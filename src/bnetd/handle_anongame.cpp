@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -39,7 +39,7 @@
 #include "channel.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

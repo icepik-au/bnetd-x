@@ -34,8 +34,8 @@
 #include "bni.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn::bni;
-using namespace pvpgn;
+using namespace bnetd-x::bni;
+using namespace bnetd-x;
 
 namespace
 {

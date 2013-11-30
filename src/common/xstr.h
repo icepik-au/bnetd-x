@@ -21,7 +21,7 @@
 #ifndef INCLUDED_XSTR_TYPES
 #define INCLUDED_XSTR_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct {
@@ -42,7 +42,7 @@ typedef struct {
 /* for NULL */
 #include <cstddef>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_xstr* xstr_alloc(void);

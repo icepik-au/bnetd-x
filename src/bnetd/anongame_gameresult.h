@@ -16,7 +16,7 @@
 #ifndef INCLUDED_ANONGAME_GAMERESULT_TYPES
 #define INCLUDED_ANONGAME_GAMERESULT_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -81,7 +81,7 @@ t_anongame_gameresult;
 # include "common/packet.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

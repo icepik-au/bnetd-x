@@ -19,7 +19,7 @@
 #ifndef INCLUDED_SQL_COMMON_TYPES
 #define INCLUDED_SQL_COMMON_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -61,7 +61,7 @@ typedef struct {
 
 #include "storage.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

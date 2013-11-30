@@ -77,7 +77,7 @@
 
 #include "compat/psock.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace client

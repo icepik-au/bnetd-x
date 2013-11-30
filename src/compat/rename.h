@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -21,7 +21,7 @@
 #include <cstdio>
 #include "compat/access.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static inline int p_rename(const char * oldpath, const char * newpath)

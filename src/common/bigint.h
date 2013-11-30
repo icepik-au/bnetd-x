@@ -21,7 +21,7 @@
 #include <string>
 #include "compat/uint.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class BigInt

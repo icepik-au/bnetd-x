@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004   CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004   CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -39,7 +39,7 @@
 
 extern int app_main(int argc, char **argv); /* d2cs main function in d2cs/main.c */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern HWND		ghwndConsole; /* hwnd for eventlog output */
@@ -243,8 +243,8 @@ static void d2cs(void * dummy)
 
 }
 
-using namespace pvpgn;
-using namespace pvpgn::d2cs;
+using namespace bnetd-x;
+using namespace bnetd-x::d2cs;
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
                    LPSTR lpszCmdLine, int nCmdShow)
@@ -299,7 +299,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
         
         if(!d2cs_running && d2cs_run && gui_run) {
             d2cs_running = TRUE;
-            _beginthread(pvpgn::d2cs::d2cs, 0, NULL);
+            _beginthread(bnetd-x::d2cs::d2cs, 0, NULL);
         }
         
         if(!gui_run && !d2cs_running) {

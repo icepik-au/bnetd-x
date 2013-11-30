@@ -22,7 +22,7 @@
 #include "connection.h"
 #include "bit.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

@@ -37,7 +37,7 @@
 #endif
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace client

@@ -28,5 +28,5 @@ For more details check: http://www14.brinkster.com/aditsu/dev-cpp-faq.html#allbe
 
 Complains about not being able to create Makefile or 'no rule to make target all':
 -----------------------------------------------------------------------------------
-Check size of pvpgn\src\win32\Makefile.win
+Check size of bnetd-x\src\win32\Makefile.win
 If it's 0 bytes quit Dev-C++, delete the file and try to compile again

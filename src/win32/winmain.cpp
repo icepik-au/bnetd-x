@@ -55,7 +55,7 @@
 
 extern int app_main(int argc, char **argv); /* bnetd main function in bnetd/main.c */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern HWND	ghwndConsole;
@@ -497,7 +497,7 @@ static void guiOnMouseMove(HWND hwnd, int x, int y, UINT keyFlags)
 
 static void guiOnUpdates ()
 {
-	ShellExecute(NULL, "open", "www.pvpgn.org", NULL, NULL, SW_SHOW );
+	ShellExecute(NULL, "open", "www.bnetd-x.org", NULL, NULL, SW_SHOW );
 }
 
 static void guiOnAnnounce (HWND hwnd)
@@ -804,8 +804,8 @@ BOOL CALLBACK KickDlgProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam)
 
 }
 
-using namespace pvpgn;
-using namespace pvpgn::bnetd;
+using namespace bnetd-x;
+using namespace bnetd-x::bnetd;
 
 int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE reserved, LPSTR lpCmdLine, int nCmdShow)
 {
@@ -821,16 +821,16 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE reserved, LPSTR lpCmdLine, i
 		return app_main(__argc, __argv);
 	}
 
-	pvpgn::bnetd::gui.main_finished = FALSE;
-	pvpgn::bnetd::gui.event_ready = CreateEvent(NULL, FALSE, FALSE, NULL);
-	_beginthread( pvpgn::bnetd::guiThread, 0, (void*)hInstance);
-	WaitForSingleObject(pvpgn::bnetd::gui.event_ready, INFINITE);
+	bnetd-x::bnetd::gui.main_finished = FALSE;
+	bnetd-x::bnetd::gui.event_ready = CreateEvent(NULL, FALSE, FALSE, NULL);
+	_beginthread( bnetd-x::bnetd::guiThread, 0, (void*)hInstance);
+	WaitForSingleObject(bnetd-x::bnetd::gui.event_ready, INFINITE);
 
 	result = app_main(__argc ,__argv);
     
-	pvpgn::bnetd::gui.main_finished = TRUE;
-	eventlog(pvpgn::eventlog_level_debug,__FUNCTION__,"server exited ( return : %i )", result);
-	WaitForSingleObject(pvpgn::bnetd::gui.event_ready, INFINITE);
+	bnetd-x::bnetd::gui.main_finished = TRUE;
+	eventlog(bnetd-x::eventlog_level_debug,__FUNCTION__,"server exited ( return : %i )", result);
+	WaitForSingleObject(bnetd-x::bnetd::gui.event_ready, INFINITE);
 	
 	return 0;
 }

@@ -72,7 +72,7 @@
 #include "inet_aton.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 #if defined(LIBC_SCCS) && !defined(lint)

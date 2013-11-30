@@ -23,7 +23,7 @@
 #include <string>
 #include "common/bigint.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class BnetSRP3

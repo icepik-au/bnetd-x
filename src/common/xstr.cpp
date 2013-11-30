@@ -30,7 +30,7 @@
 /* how many bytes allocate at once on enlarging a xstr */
 #define XSTR_INCREMENT	256
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* enlarge "dst" enough so it can hold more "size" characters (not including terminator) */

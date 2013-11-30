@@ -19,7 +19,7 @@
 #ifndef INCLUDED_PROGINFO_PROTOS
 #define INCLUDED_PROGINFO_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int verparts_to_vernum(unsigned short v1, unsigned short v2, unsigned short v3, unsigned short v4, unsigned long * vernum);

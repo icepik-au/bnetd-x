@@ -22,7 +22,7 @@
 #include "common/bn_type.h"
 #include "common/field_sizes.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct

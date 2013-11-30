@@ -23,7 +23,7 @@
 #include "fdwbackend.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 FDWBackend::FDWBackend(int nfds_)

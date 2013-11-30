@@ -26,7 +26,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef union
@@ -68,7 +68,7 @@ typedef t_list t_addrlist;
 #ifndef INCLUDED_ADDR_PROTOS
 #define INCLUDED_ADDR_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* ipaddr and port are in host byte order */

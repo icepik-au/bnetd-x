@@ -28,8 +28,8 @@ configuration file called bnetd.conf). We considered that as a sign of respect
 from us to the bnetd coders we keep their names on the code they written (but
 on the new code of course we may name them different).
 
-Arround the time of pvpgn 1.7.9 release we have branched the codes and started 
-to work on pvpgn 2.x, the next big version, a C++ based version.
+Arround the time of bnetd-x 1.7.9 release we have branched the codes and started 
+to work on bnetd-x 2.x, the next big version, a C++ based version.
 
 3. Objective
 =============
@@ -62,7 +62,7 @@ BNETD-X follows the bnetd's layout of files:
 ./files			-> various files needed for clients connecting
 ./man			-> outdated man pages :(
 ./sbin			-> same as ./bin
-./scripts		-> various scripts for testing/managing pvpgn
+./scripts		-> various scripts for testing/managing bnetd-x
 ./src			-> the source main directory
 ./src/bnetd		-> source files used only by the main server
 ./src/common		-> source files used in common by different programs
@@ -111,7 +111,7 @@ code should "throw" an exception (see section 5.d).
 When developing code you should compile always with "all warnings" enabled 
 and try to fix them (some warnings uncover real bugs), like for gcc use 
 "-Wall". When running/testing the codes you should use a memory debugger like 
-valgrind. For more details about how to run pvpgn check Appendix B.
+valgrind. For more details about how to run bnetd-x check Appendix B.
 
 To allocate/free memory use ONLY new/delete calls (this makes sure that out 
 of memory condition is detected and nicely handled because in that case 
@@ -205,9 +205,9 @@ and that object reference is passed to the handlers)
 
 e. Namespaces
 
-All pvpgn codes will belong to the "pvpgn" namespace. Specific application 
-codes will belong to a namespace inside "pvpgn" like "pvpgn::bnetd". Common 
-codes need to still be just in "pvpgn" so all other codes will "see" them.
+All bnetd-x codes will belong to the "bnetd-x" namespace. Specific application 
+codes will belong to a namespace inside "bnetd-x" like "bnetd-x::bnetd". Common 
+codes need to still be just in "bnetd-x" so all other codes will "see" them.
 
 Never ever use a "using" keyword inside a .h file. Inside .cpp files you 
 _may_ use them.

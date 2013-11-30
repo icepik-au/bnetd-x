@@ -78,8 +78,8 @@
 #define CHANNEL_WARCRAFT3 "W3"
 #define CHANNEL_WAR3XP    "W3"
 
-using namespace pvpgn;
-using namespace pvpgn::client;
+using namespace bnetd-x;
+using namespace bnetd-x::client;
 
 namespace
 {

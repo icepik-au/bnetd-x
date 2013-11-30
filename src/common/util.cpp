@@ -29,7 +29,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int strstart(char const * full, char const * part)

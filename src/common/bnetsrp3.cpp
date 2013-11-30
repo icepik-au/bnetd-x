@@ -38,7 +38,7 @@
 
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 t_uint8 bnetsrp3_g = 0x2F;

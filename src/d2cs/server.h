@@ -20,7 +20,7 @@
 
 #include "common/fdwatch.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

@@ -30,7 +30,7 @@
 
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -121,7 +121,7 @@ t_character;
 #include "account.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

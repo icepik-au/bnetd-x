@@ -21,7 +21,7 @@
 #ifdef HAVE_STDINT_H
 
 # include <stdint.h>
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef uint8_t  t_uint8;
@@ -40,7 +40,7 @@ typedef int64_t  t_int64;
 
 #else
 #ifdef HAVE_MODE_ATTR
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef unsigned int t_uint8   MODE_ATTR(__QI__);
@@ -66,7 +66,7 @@ typedef signed int   t_int64   MODE_ATTR(__DI__); /* FIXME: I guess DI is always
 #   define MY_CHAR_BIT CHAR_BIT
 #  endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 #  if SIZEOF_UNSIGNED_CHAR*MY_CHAR_BIT == 8

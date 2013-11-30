@@ -23,7 +23,7 @@
 #ifndef INCLUDED_STORAGE_SQL2_PROTOS
 #define INCLUDED_STORAGE_SQL2_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

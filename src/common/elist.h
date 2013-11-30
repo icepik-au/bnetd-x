@@ -18,7 +18,7 @@
 #ifndef INCLUDED_ELIST_TYPES
 #define INCLUDED_ELIST_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 template<typename T>
@@ -189,7 +189,7 @@ typedef struct hlist_struct {
 #define DECLARE_ELIST_INIT(var) \
     t_elist var = { &var, &var }
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* link an new node just after "where" */

@@ -14,11 +14,11 @@
 #
 #	usage /cg <add|del|list> <username> [<groups>]
 #
-#	ie. /cg list pvpgnplayer  <-- list the current command groups for user
-#	ie. /cg add pvpgnplayer 234  <-- adds groups 2, 3, & 4 to user
-#	ie. /cg del pvpgnplayer 24 <-- deletes groups 2 & 4 from user
+#	ie. /cg list bnetd-xplayer  <-- list the current command groups for user
+#	ie. /cg add bnetd-xplayer 234  <-- adds groups 2, 3, & 4 to user
+#	ie. /cg del bnetd-xplayer 24 <-- deletes groups 2 & 4 from user
 #
-#	If the following commands were done, pvpgnplayer would have access
+#	If the following commands were done, bnetd-xplayer would have access
 #	to commands in groups 1 & 3
 #
 #	Commands not listed in this file will be deactivated by the server

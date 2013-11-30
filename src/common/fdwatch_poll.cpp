@@ -31,7 +31,7 @@
 #include "common/setup_after.h"
 
 #ifdef HAVE_POLL
-namespace pvpgn
+namespace bnetd-x
 {
 
 FDWPollBackend::FDWPollBackend(int nfds_)

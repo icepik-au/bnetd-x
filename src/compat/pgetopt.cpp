@@ -93,7 +93,7 @@
 
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* For communication from `getopt' to the caller.

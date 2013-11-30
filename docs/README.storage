@@ -10,7 +10,7 @@ BNETD-X and can drastically improve speed of the server depending on the chosen
 method. Because we wanted to be easy to add new storage types we designed a 
 modular solution, like this:
 
-                   <pvpgn account code>  (mostly in bnetd/account.c)
+                   <bnetd-x account code>  (mostly in bnetd/account.c)
 		            |
 		            |
 		  <general storage code> (mostly wrappers, in bnetd/storage.c)
@@ -111,17 +111,17 @@ storage_path = sql:variable=value;...;default=0 (0 is the default uid)
   - "pass" : db password
 
 Examples:
-storage_path = file:dir=/usr/local/pvpgn/var/users;clan=/usr/local/pvpgn/var/clans;default=/usr/local/pvpgn/etc/bnetd_default_user
+storage_path = file:dir=/usr/local/bnetd-x/var/users;clan=/usr/local/bnetd-x/var/clans;default=/usr/local/bnetd-x/etc/bnetd_default_user
 
-storage_path = cdb:dir=/usr/local/pvpgn/var/userscdb;clan=/usr/local/pvpgn/var/clanscdb;default=/usr/local/pvpgn/etc/bnetd_default_user.cdb
+storage_path = cdb:dir=/usr/local/bnetd-x/var/userscdb;clan=/usr/local/bnetd-x/var/clanscdb;default=/usr/local/bnetd-x/etc/bnetd_default_user.cdb
 
-storage_path = sql:mode=mysql;host=127.0.0.1;name=PVPGN;user=pvpgn;pass=pvpgnrocks;default=0
+storage_path = sql:mode=mysql;host=127.0.0.1;name=PVPGN;user=bnetd-x;pass=bnetd-xrocks;default=0
 
-storage_path = sql:mode=pgsql;host=127.0.0.1;name=pvpgn;user=pvpgn;pass=pvpgnrocks;default=0
+storage_path = sql:mode=pgsql;host=127.0.0.1;name=bnetd-x;user=bnetd-x;pass=bnetd-xrocks;default=0
 
 
 3. Start BNETD-X. If all is well you should see a line similare to the one bellow 
-in your pvpgn logs:
+in your bnetd-x logs:
 
 Nov 26 16:07:20 [info ] storage_init: using <driver> storage driver
 

@@ -19,7 +19,7 @@
 #ifndef PVPGN_SCOPED_ARRAY_H
 #define PVPGN_SCOPED_ARRAY_H
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 template<typename T>

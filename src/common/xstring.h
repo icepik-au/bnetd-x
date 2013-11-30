@@ -18,7 +18,7 @@
 #ifndef INCLUDED_XSTRING_H
 #define INCLUDED_XSTRING_H
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char *		strtolower(char * str);

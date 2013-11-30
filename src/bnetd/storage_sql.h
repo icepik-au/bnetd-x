@@ -22,7 +22,7 @@
 
 #include "storage.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

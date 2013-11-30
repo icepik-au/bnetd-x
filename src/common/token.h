@@ -18,7 +18,7 @@
 #ifndef JUST_NEED_TYPES
 #ifndef INCLUDED_TOKEN_PROTOS
 #define INCLUDED_TOKEN_PROTOS
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char * next_token(char * ptr, unsigned int * pos);

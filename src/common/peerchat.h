@@ -31,7 +31,7 @@ LICENSE
 #ifndef __PEERCHAT_INCLUDED__
 #define __PEERCHAT_INCLUDED__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 

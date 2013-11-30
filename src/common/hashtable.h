@@ -18,7 +18,7 @@
 #ifndef INCLUDED_HASHTABLE_TYPES
 #define INCLUDED_HASHTABLE_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 #ifdef HASHTABLE_INTERNAL_ACCESS
@@ -65,7 +65,7 @@ t_hashtable;
 #ifndef INCLUDED_HASHTABLE_PROTOS
 #define INCLUDED_HASHTABLE_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_hashtable * hashtable_create(unsigned int num_rows) ;

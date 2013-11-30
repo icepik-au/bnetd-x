@@ -25,7 +25,7 @@
 #include "common/elist.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void rcm_init(t_rcm *rcm)

@@ -21,7 +21,7 @@
 #include "connection.h"
 #include "common/packet.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

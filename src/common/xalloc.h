@@ -18,7 +18,7 @@
 
 #ifndef INCLUDED_XALLOC_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* out of memory callback function */
@@ -36,7 +36,7 @@ typedef int (*t_oom_cb)(void);
 #ifndef XALLOC_SKIP
 #include <cstdlib>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 

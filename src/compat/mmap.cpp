@@ -32,7 +32,7 @@
 #endif
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void * pmmap(void *addr, unsigned len, int prot, int flags, int fd, unsigned offset)
@@ -41,7 +41,7 @@ extern void * pmmap(void *addr, unsigned len, int prot, int flags, int fd, unsig
 #ifdef WIN32
     HANDLE	hFile, hMapping;
 
-    /* under win32 we only support readonly mappings, the only ones used in pvpgn now :) */
+    /* under win32 we only support readonly mappings, the only ones used in bnetd-x now :) */
     if (prot != PROT_READ) return NULL;
     hFile = (HANDLE) _get_osfhandle(fd);
     if (hFile == (HANDLE) - 1) return MAP_FAILED;

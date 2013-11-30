@@ -22,7 +22,7 @@
 #ifndef INCLUDED_TICK_PROTOS
 #define INCLUDED_TICK_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

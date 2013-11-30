@@ -39,7 +39,7 @@
 # include <io.h> /* for _findfirst(), _findnext(), etc */
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class Directory

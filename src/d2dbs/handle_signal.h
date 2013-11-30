@@ -18,7 +18,7 @@
 #ifndef INCLUDED_HANDLE_SIGNAL_H
 #define INCLUDED_HANDLE_SIGNAL_H
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

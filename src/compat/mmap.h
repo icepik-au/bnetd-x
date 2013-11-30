@@ -58,7 +58,7 @@
 #define pmunmap(a,b) munmap(a,b)
 #else
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern void * pmmap(void *addr, unsigned len, int prot, int flags, int fd, unsigned offset);

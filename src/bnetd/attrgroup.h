@@ -35,7 +35,7 @@
 #define ATTRGROUP_FLAG_ACCESSED	2
 #define ATTRGROUP_FLAG_DIRTY	4
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

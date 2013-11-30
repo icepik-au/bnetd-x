@@ -24,7 +24,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char * strsep(char * * str, char const * delims)

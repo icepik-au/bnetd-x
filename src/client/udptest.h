@@ -19,7 +19,7 @@
 #ifndef INCLUDED_UDPTEST_PROTOS
 #define INCLUDED_UDPTEST_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace client

@@ -33,7 +33,7 @@
 #include "common/xalloc.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

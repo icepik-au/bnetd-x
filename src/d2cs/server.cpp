@@ -48,7 +48,7 @@
 extern int g_ServiceStatus;
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

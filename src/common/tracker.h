@@ -28,7 +28,7 @@
 #endif
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /*

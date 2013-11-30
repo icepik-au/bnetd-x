@@ -17,7 +17,7 @@
 #ifndef __OUTPUT_H_INCLUDED__
 #define __OUTPUT_H_INCLUDED__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

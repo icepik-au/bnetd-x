@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2004	Aaron
- * Copyright (C) 2004	CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004	CreepLord (creeplord@bnetd-x.org)
  * Copyright (C) 2007,2008	Pelish (pelish@gmail.com)
  *
  * This program is free software; you can redistribute it and/or
@@ -29,7 +29,7 @@
 #include "common/xalloc.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* fixme: have all functions call tag_str_to_uint() */

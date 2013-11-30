@@ -28,7 +28,7 @@
 
 #define QUEUE_QUANTUM	10 /* allocate ring buffer slots for 10 packets at once */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_packet * queue_pull_packet(t_queue * * queue)

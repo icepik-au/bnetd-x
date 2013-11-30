@@ -21,7 +21,7 @@
 
 #include "common/packet.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace client

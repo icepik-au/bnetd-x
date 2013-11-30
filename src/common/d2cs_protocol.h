@@ -20,7 +20,7 @@
 
 #include "common/bn_type.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct

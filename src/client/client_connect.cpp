@@ -149,7 +149,7 @@ int get_defversioninfo(char const * progname, char const * clienttag, unsigned i
 
 }
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace client

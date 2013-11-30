@@ -27,7 +27,7 @@
 #include "common/packet.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int net_recv(int sock, void *buff, int len);

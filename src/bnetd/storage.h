@@ -26,7 +26,7 @@
 #define ST_NONE		0
 #define ST_FORCE	1
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -71,7 +71,7 @@ typedef struct {
 #ifndef INCLUDED_STORAGE_PROTOS
 #define INCLUDED_STORAGE_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

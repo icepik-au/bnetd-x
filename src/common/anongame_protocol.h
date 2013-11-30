@@ -27,7 +27,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /***********************************************************************************/
@@ -98,7 +98,7 @@ inviter 2v2 - battle.net
 0020:   44 31 BD EE 47 7F 00 00   00 00[01 00]FF 07 00 00    D1..G...........
 0030:   08 48 07 FB 04 04 00 00   00                         .H.......
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-AT 3v3 - pvpgn - with uid of team members
+AT 3v3 - bnetd-x - with uid of team members
 # 378 packet from client: type=0x44ff(CLIENT_FINDANONGAME) length=57 class=bnet
 0000:   FF 44 39 00 06 01 00 00   00[B7 36 C4 19]1B 02 2F    .D9.......6..../
 0010:   3F 03[19 00 00 00|02 00   00 00|01 00 00 00|FF FF    ?...............

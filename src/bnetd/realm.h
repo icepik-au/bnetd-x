@@ -28,7 +28,7 @@
 #undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -72,7 +72,7 @@ t_realm;
 # include "common/rcm.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

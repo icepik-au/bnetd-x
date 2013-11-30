@@ -22,7 +22,7 @@
 #if !defined(HAVE_VSNPRINTF) && !defined(HAVE__VSNPRINTF)
 # if defined(HAVE_DOPRNT) && defined(_IOWRT) && defined(_IOSTRG)
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int vsnprintf(char *str, int size, const char *format, va_list ap)

@@ -3,7 +3,7 @@
 
 #define D2CHARFILE_PADBYTE              0xff
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct {

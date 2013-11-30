@@ -25,7 +25,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int strcasecmp(char const * str1, char const * str2)

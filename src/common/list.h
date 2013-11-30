@@ -18,7 +18,7 @@
 #ifndef INCLUDED_LIST_TYPES
 #define INCLUDED_LIST_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct elem
@@ -51,7 +51,7 @@ t_list;
 #ifndef INCLUDED_LIST_PROTOS
 #define INCLUDED_LIST_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_list * list_create(void) ;

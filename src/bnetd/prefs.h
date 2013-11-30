@@ -27,7 +27,7 @@
 #ifndef INCLUDED_PREFS_PROTOS
 #define INCLUDED_PREFS_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

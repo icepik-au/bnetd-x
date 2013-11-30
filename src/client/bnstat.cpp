@@ -57,8 +57,8 @@
 # define dprintf if (0) printf
 #endif
 
-using namespace pvpgn;
-using namespace pvpgn::client;
+using namespace bnetd-x;
+using namespace bnetd-x::client;
 
 
 namespace

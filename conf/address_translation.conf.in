@@ -11,8 +11,8 @@
 #
 # The entries are broken into four parts:
 #
-# * the IP address w/port to be translated (what pvpgn wants to send initially)
-# * the output IP address w/port (what pvpgn WILL send after translation)
+# * the IP address w/port to be translated (what bnetd-x wants to send initially)
+# * the output IP address w/port (what bnetd-x WILL send after translation)
 # * comma delimited list of networks to be excluded from translation
 # * comma delimited list of networks to be included in translation
 #
@@ -39,7 +39,7 @@
 ################################################################################
 # w3route server ip translation
 #
-# Here you can translate the IP/port of the w3route IP/port as sent by pvpgn
+# Here you can translate the IP/port of the w3route IP/port as sent by bnetd-x
 # to the WAR3 clients. You need this ONLY if you want to have external W3 
 # players that will play PlayGame/ArrangedTeam games.
 # Set exclude to the range of clients you want to recieve the input address
@@ -52,7 +52,7 @@
 # Example, if you left w3route = 0.0.0.0:6200 as it is by default in bnetd.conf
 # AND you have the external IP 1.2.3.4 AND you want to exclude from translation 
 # the internal W3 clients (those with IPs 192.168.0.x) AND you port forward 
-# port 6200 TCP from your router to the pvpgn server port 6200 then here put:
+# port 6200 TCP from your router to the bnetd-x server port 6200 then here put:
 
 # 0.0.0.0:6200      1.2.3.4:6200      192.168.0.0/24           ANY
 

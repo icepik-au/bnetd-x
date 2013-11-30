@@ -73,7 +73,7 @@ sub convertfile {
 sub header {
     print "Account files flat2cdb converting tool.\n";
     print " Copyright (C) 2003 Dizzy (dizzy\@roedu.net)\n";
-    print " People Versus People Gaming Network (www.pvpgn.org)\n\n";
+    print " People Versus People Gaming Network (www.bnetd-x.org)\n\n";
 }
 
 sub usage {

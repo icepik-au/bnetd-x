@@ -24,7 +24,7 @@
 #include "common/elist.h"
 #include "common/lstr.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -54,7 +54,7 @@ typedef int (*t_news_cb)(std::time_t, t_lstr *, void *);
 #ifndef NEWS_INTERNAL_ACCESS
 #define NEWS_INTERNAL_ACCESS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

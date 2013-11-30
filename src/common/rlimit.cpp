@@ -41,7 +41,7 @@
 # endif
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int get_socket_limit(void)

@@ -19,7 +19,7 @@
 #ifndef __WINMAIN_H__
 #define __WINMAIN_H__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

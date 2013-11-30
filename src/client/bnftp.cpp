@@ -46,8 +46,8 @@
 #include "client.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn;
-using namespace pvpgn::client;
+using namespace bnetd-x;
+using namespace bnetd-x::client;
 
 namespace
 {

@@ -70,7 +70,7 @@ $dbh->disconnect();
 sub header {
     print "Account db accounts XP levels repair tool.\n";
     print " Copyright (C) 2002 Dizzy (dizzy\@roedu.net)\n";
-    print " People Versus People Gaming Network (www.pvpgn.org)\n\n";
+    print " People Versus People Gaming Network (www.bnetd-x.org)\n\n";
 }
 
 sub usage {

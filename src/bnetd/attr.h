@@ -22,7 +22,7 @@
 #include "common/elist.h"
 #include "common/xalloc.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

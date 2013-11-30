@@ -22,7 +22,7 @@
 
 #include "common/field_sizes.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

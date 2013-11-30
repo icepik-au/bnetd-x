@@ -24,7 +24,7 @@
 
 #include <cstdio>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

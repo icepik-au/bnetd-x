@@ -25,7 +25,7 @@
 #define BNI_MAXICONS 4096
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bni

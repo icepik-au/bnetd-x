@@ -36,7 +36,7 @@
 #include "anongame_maplists.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

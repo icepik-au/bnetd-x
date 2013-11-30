@@ -20,7 +20,7 @@
 
 #ifndef HAVE_STRDUP
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char * strdup(char const * str);

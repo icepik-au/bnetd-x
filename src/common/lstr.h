@@ -21,7 +21,7 @@
 #ifndef INCLUDED_LSTR_TYPES
 #define INCLUDED_LSTR_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct lstr {
@@ -36,7 +36,7 @@ typedef struct lstr {
 #ifndef INCLUDED_LSTR_PROTOS
 #define INCLUDED_LSTR_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static inline void lstr_set_str(t_lstr *lstr, char *str)

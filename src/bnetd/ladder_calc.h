@@ -19,7 +19,7 @@
 #ifndef INCLUDED_LADDER_CALC_TYPES
 #define INCLUDED_LADDER_CALC_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -52,7 +52,7 @@ typedef struct
 #include "common/tag.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

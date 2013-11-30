@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004 CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004 CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -33,7 +33,7 @@
 #define MAXMAPS_PER_QUEUE 32 /* cannot be changed (map_prefs only supports 32 maps) */
 
 /**********************************************************************************/
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

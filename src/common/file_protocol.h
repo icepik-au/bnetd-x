@@ -26,7 +26,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /******************************************************/

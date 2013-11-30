@@ -27,7 +27,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef t_uint32 t_hash[5];
@@ -41,7 +41,7 @@ typedef t_uint32 t_hash[5];
 #ifndef INCLUDED_BNETHASH_PROTOS
 #define INCLUDED_BNETHASH_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int bnet_hash(t_hash * hashout, unsigned int size, void const * data);

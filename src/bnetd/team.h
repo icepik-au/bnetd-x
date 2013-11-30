@@ -35,7 +35,7 @@
 
 #define MAX_TEAMSIZE 4
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -69,7 +69,7 @@ t_team;
 #ifndef INCLUDED_TEAM_PROTOS
 #define INCLUDED_TEAM_PROTOS
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

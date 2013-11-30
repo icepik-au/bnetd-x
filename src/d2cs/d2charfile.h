@@ -69,7 +69,7 @@
 #ifndef JUST_NEED_TYPES
 #include "common/d2cs_d2gs_character.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

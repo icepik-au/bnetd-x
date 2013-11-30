@@ -54,7 +54,7 @@
 
 #define MaxRankKeptInLadder 1000
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

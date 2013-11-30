@@ -21,7 +21,7 @@
 
 #include <memory>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 template<typename T>

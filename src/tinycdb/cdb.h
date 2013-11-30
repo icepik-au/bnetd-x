@@ -8,7 +8,7 @@
 #ifndef TINYCDB_VERSION
 #define TINYCDB_VERSION 0.74
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef unsigned int cdbi_t; /* compatibility */

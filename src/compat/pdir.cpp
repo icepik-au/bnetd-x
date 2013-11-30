@@ -25,7 +25,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 Directory::Directory(const std::string& path_, bool lazyread_)
@@ -56,7 +56,7 @@ Directory::open(const std::string& path_, bool lazyread_)
 	std::string tmp(path_);
 
 	if (tmp.size() + 1 + 3 >= _MAX_PATH)
-		throw std::runtime_error("pvpgn::Directory::Directory(): WIN32: path too long");
+		throw std::runtime_error("bnetd-x::Directory::Directory(): WIN32: path too long");
 	tmp += "/*.*";
 
 	status = 0;

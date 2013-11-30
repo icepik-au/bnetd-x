@@ -19,7 +19,7 @@
 #ifndef __CMDLINE_H_PROTOS__
 #define __CMDLINE_H_PROTOS__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

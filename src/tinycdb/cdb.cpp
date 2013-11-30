@@ -17,7 +17,7 @@
 #endif
 #include "common/setup_after.h"
 
-using namespace pvpgn;
+using namespace bnetd-x;
 
 #ifndef EPROTO
 # define EPROTO EINVAL

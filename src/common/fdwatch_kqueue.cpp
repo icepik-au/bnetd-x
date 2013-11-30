@@ -31,7 +31,7 @@
 #include "fdwatch.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 FDWKqueueBackend::FDWKqueueBackend(int nfds_)

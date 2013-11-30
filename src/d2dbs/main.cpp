@@ -50,8 +50,8 @@
 #include "dbserver.h"
 #include "common/setup_after.h"
 
-using namespace pvpgn::d2dbs;
-using namespace pvpgn;
+using namespace bnetd-x::d2dbs;
+using namespace bnetd-x;
 
 static std::FILE * eventlog_fp;
 

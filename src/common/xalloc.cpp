@@ -26,7 +26,7 @@
 #include "common/eventlog.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 static t_oom_cb oom_cb = NULL;

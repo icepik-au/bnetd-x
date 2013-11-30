@@ -1,4 +1,4 @@
-# these lines create the empty directory structure pvpgn needs installed
+# these lines create the empty directory structure bnetd-x needs installed
 # in ./var and then installs it portably using install(DIRECTORY...)
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/var/users")
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/var/userscdb")

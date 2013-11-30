@@ -39,7 +39,7 @@
 
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -256,7 +256,7 @@ typedef int (*t_glist_func)(t_game *, void *);
 #include "common/tag.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

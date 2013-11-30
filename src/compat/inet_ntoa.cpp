@@ -40,7 +40,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char const * inet_ntoa(struct in_addr const * addr)

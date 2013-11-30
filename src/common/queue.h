@@ -28,7 +28,7 @@
 #endif
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct queue
@@ -55,7 +55,7 @@ t_queue;
 #include "common/packet.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_packet * queue_pull_packet(t_queue * * queue);

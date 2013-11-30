@@ -46,7 +46,7 @@
 
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -126,7 +126,7 @@ t_channel;
 #define CHANNEL_NAME_KICKED "THE VOID"
 #define CHANNEL_NAME_CHAT   "Chat"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

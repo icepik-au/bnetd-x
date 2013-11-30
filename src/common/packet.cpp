@@ -29,7 +29,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_packet * packet_create(t_packet_class pclass)

@@ -28,7 +28,7 @@
 
 #include <cstdarg>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int vsnprintf(char *str, int size, const char *format, va_list ap);

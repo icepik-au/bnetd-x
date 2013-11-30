@@ -28,7 +28,7 @@
 #include "common/util.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int conf_set_int(unsigned *pint, const char *valstr, unsigned def)

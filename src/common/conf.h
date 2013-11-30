@@ -19,7 +19,7 @@
 #ifndef __CONF_H_TYPES__
 #define __CONF_H_TYPES__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* a conf entry object with a set and a get method */
@@ -41,7 +41,7 @@ typedef struct {
 #include <cstdio>
 #include <ctime>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* helpfull utility functions for common conf types like bool, int and str */

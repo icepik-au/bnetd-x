@@ -24,7 +24,7 @@
 
 #include <stdexcept>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class FDWBackend

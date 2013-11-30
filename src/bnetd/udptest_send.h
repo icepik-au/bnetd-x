@@ -21,7 +21,7 @@
 
 #include "connection.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

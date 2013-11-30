@@ -75,7 +75,7 @@
 #endif
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -2056,7 +2056,7 @@ static int _client_logonproofreq(t_connection * c, t_packet const *const packet)
 		    const char * client_password_proof;
 
             /* PELISH: This can not occur - We allready tested packet size which must be wrong firstly.
-               Also pvpgn will crash when will dereferencing NULL pointer (so we cant got this errorlog message)
+               Also bnetd-x will crash when will dereferencing NULL pointer (so we cant got this errorlog message)
                I vote for deleting this "if" */
 		    if (!(client_password_proof = (const char*)packet_get_data_const(packet, offsetof(t_client_logonproofreq,client_password_proof), 20))) {
 			eventlog(eventlog_level_error, __FUNCTION__, "[%d] (W3) got bad LOGONPROOFREQ packet (missing hash)", conn_get_socket(c));

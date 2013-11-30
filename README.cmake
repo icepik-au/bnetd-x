@@ -25,12 +25,12 @@ configurable).
 
 1. Running "cmake"
 
-   Now that you have cmake (and also you have the pvpgn sources with the 
+   Now that you have cmake (and also you have the bnetd-x sources with the 
 cmake support) you should try to run cmake to generate the project files 
 (or makefiles, depending on your generator used with cmake). It is 
 recommended that you do an "out of source" build, this means you should 
-not try to build pvpgn inside the source directory but in a directory 
-specially made for building pvpgn.
+not try to build bnetd-x inside the source directory but in a directory 
+specially made for building bnetd-x.
 
    Note: the instructions generally follow how to use the cmake command 
 line version which is more portable (available everywhere cmake is 
@@ -38,14 +38,14 @@ available). For using various cmake GUIs one has to find out himself how
 they work.
 
    Create a build directory (preferably have it empty), change current 
-directory there, run cmake as "cmake /path/to/pvpgn-src" where 
-"/path/to/pvpgn-src" is obvioulsy the path to the pvpgn source 
+directory there, run cmake as "cmake /path/to/bnetd-x-src" where 
+"/path/to/bnetd-x-src" is obvioulsy the path to the bnetd-x source 
 directory. This will have cmake generate the type of project files that 
 is default for your platform (which is "Unix Makefiles" on Unix/Linux 
 systems or "Visual Studio Project files" on Windows) without any 
-additional storage types (ie. no SQL support) and will install pvpgn on 
+additional storage types (ie. no SQL support) and will install bnetd-x on 
 "make install" in the default location (which is "/usr/local" for Unix 
-systems or "<System-Drive>:\\Program Files\\pvpgn" on Windows).
+systems or "<System-Drive>:\\Program Files\\bnetd-x" on Windows).
 
    All these defaults are probably not what you wanted so cmake offers a 
 way to customize this by command line flags setting variables or 
@@ -77,10 +77,10 @@ strange problems.
 
 2. Building BNETD-X
 
-    After successfully running cmake you are ready to build pvpgn. 
+    After successfully running cmake you are ready to build bnetd-x. 
 Depending on your project files generator used with cmake you do this in 
 various ways. Example: when using "Unix Makefiles" you should just issue 
-"make" and it should build your pvpgn binaries. When using some IDE 
+"make" and it should build your bnetd-x binaries. When using some IDE 
 project file types such as KDevelop3 or Visual Studio you should run the 
 "Build" command of that IDE.
 
@@ -88,23 +88,23 @@ project file types such as KDevelop3 or Visual Studio you should run the
 
 
    Again, depending on the type of project files generator you used you 
-can install pvpgn to the CMAKE_INSTALL_DIR prefixed location. When using 
+can install bnetd-x to the CMAKE_INSTALL_DIR prefixed location. When using 
 the "Unix Makefiles" generator you can use "make install" to do so.
 
 
 4. Full examples usage
 
-4.1 Using cmake on a Unix/Linux system installing pvpgn under "~pvpgn" 
+4.1 Using cmake on a Unix/Linux system installing bnetd-x under "~bnetd-x" 
 with MySQL support
 
-  $ cd pvpgn-build
-  $ cmake -D CMAKE_INSTALL_PREFIX=/home/pvpgn -D WITH_MYSQL ../pvpgn-src
+  $ cd bnetd-x-build
+  $ cmake -D CMAKE_INSTALL_PREFIX=/home/bnetd-x -D WITH_MYSQL ../bnetd-x-src
   $ make
   $ make install
 
 4.2 Using cmake on a Windows (command line prompt) system with mingw32
-  > cd pvpgn-build
-  > cmake ..\pvpgn-src
+  > cd bnetd-x-build
+  > cmake ..\bnetd-x-src
   > mingw32-make
   > mingw32-make install
 
@@ -113,10 +113,10 @@ with MySQL support
 
    cmake building in BNETD-X is a young feature as such many issues may 
 still arise. If you have problems with cmake please contact us at 
-pvpgn-dev@berlios.de (after you subscribe to the mailing list at 
-https://lists.berlios.de/mailman/listinfo/pvpgn-dev) or use the bug 
+bnetd-x-dev@berlios.de (after you subscribe to the mailing list at 
+https://lists.berlios.de/mailman/listinfo/bnetd-x-dev) or use the bug 
 tracker at http://developer.berlios.de/bugs/?group_id=2291 .
 
-   When reporting problems please provide all information such as pvpgn 
+   When reporting problems please provide all information such as bnetd-x 
 version, your platform name/version, exactly what you tried to do (the 
 commands used) and exactly the errors you get.

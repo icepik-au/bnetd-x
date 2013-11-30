@@ -23,7 +23,7 @@
 
 #include <errno.h>
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 class SystemError: public std::runtime_error

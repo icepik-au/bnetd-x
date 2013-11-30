@@ -93,8 +93,8 @@
 /* out of memory safety */
 #define OOM_SAFE_MEM	1000000		/* 1 Mbyte of safety memory */
 
-using namespace pvpgn::bnetd;
-using namespace pvpgn;
+using namespace bnetd-x::bnetd;
+using namespace bnetd-x;
 
 void *oom_buffer = NULL;
 
@@ -136,7 +136,7 @@ static void oom_free(void)
 FILE	*hexstrm = NULL;
 
 char serviceLongName[] = "BNETD-X service";
-char serviceName[] = "pvpgn";
+char serviceName[] = "bnetd-x";
 char serviceDescription[] = "Player vs. Player Gaming Network - Server";
 
 /*
@@ -164,7 +164,7 @@ void post_server_shutdown(int status);
 int eventlog_startup(void);
 int fork_bnetd(int foreground);
 char * write_to_pidfile(void);
-void pvpgn_greeting(void);
+void bnetd-x_greeting(void);
 
 int eventlog_startup(void)
 {
@@ -294,7 +294,7 @@ char * write_to_pidfile(void)
 
 int pre_server_startup(void)
 {
-    pvpgn_greeting();
+    bnetd-x_greeting();
     if (oom_setup() < 0) {
 	eventlog(eventlog_level_error, __FUNCTION__, "OOM init failed");
 	return STATUS_OOM_FAILURE;
@@ -433,7 +433,7 @@ void post_server_shutdown(int status)
     return;
 }
 
-void pvpgn_greeting(void)
+void bnetd-x_greeting(void)
 {
     struct utsname     utsbuf;
 #ifdef HAVE_GETPID
@@ -450,11 +450,11 @@ void pvpgn_greeting(void)
     printf("You are currently Running "BNETD_SOFTWARE" "BNETD_VERSION"\n");
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
     printf("If you need support:\n");
-    printf(" * READ the documentation at http://pvpgndocs.berlios.de/\n");
-    printf(" * you can subscribe to the pvpgn-users mailing list at \n");
-    printf("   https://lists.berlios.de/mailman/listinfo/pvpgn-users\n");
-    printf(" * check out the forums at http://forums.pvpgn.org\n");
-    printf(" * visit us on IRC on irc.pvpgn.org channel #pvpgn\n");
+    printf(" * READ the documentation at http://bnetd-xdocs.berlios.de/\n");
+    printf(" * you can subscribe to the bnetd-x-users mailing list at \n");
+    printf("   https://lists.berlios.de/mailman/listinfo/bnetd-x-users\n");
+    printf(" * check out the forums at http://forums.bnetd-x.org\n");
+    printf(" * visit us on IRC on irc.bnetd-x.org channel #bnetd-x\n");
     printf("\nServer is now running.\n");
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 

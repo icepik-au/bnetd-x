@@ -23,7 +23,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern unsigned long strtoul(char const * str, char * * endptr, int base)

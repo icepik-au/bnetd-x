@@ -32,7 +32,7 @@
 
 #ifdef HAVE_SELECT
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 FDWSelectBackend::FDWSelectBackend(int nfds_)

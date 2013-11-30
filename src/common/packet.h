@@ -49,7 +49,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef enum
@@ -379,7 +379,7 @@ typedef struct
 
 #include "lstr.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern t_packet * packet_create(t_packet_class pclass) ;

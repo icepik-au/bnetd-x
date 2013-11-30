@@ -30,7 +30,7 @@
 #include <fstream>
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 Console::Console(){

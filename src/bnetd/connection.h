@@ -59,7 +59,7 @@
 
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -253,7 +253,7 @@ t_connection;
 #define DESTROY_FROM_CONNLIST 0
 #define DESTROY_FROM_DEADLIST 1
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

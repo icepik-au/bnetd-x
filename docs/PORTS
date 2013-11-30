@@ -13,4 +13,4 @@ Notes:
 - the platforms/operating systems not listed have not been tested or they did 
 not came to our attention however, any POSIX system with a ISO C++98 compiler 
 should work just fine
-- please report to us any platform/OS you use pvpgn on and not listed here
+- please report to us any platform/OS you use bnetd-x on and not listed here

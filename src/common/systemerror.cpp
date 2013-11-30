@@ -24,7 +24,7 @@
 #include "compat/strerror.h"
 #include "common/setup_after.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 SystemError::SystemError(const std::string& prefix, int err)

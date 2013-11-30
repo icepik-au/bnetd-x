@@ -450,7 +450,7 @@ BNETD-X Version History:
   -- added option to bnmotd.txt to display info about new mail
   -- adjusted /whois command to be more like on battle.net
   -- massivly renamed configuration files so each has an extension
-  -- added scripts/pvpgn_hash.inc.php so everyone who needs has a php-
+  -- added scripts/bnetd-x_hash.inc.php so everyone who needs has a php-
      implementation of the commonly used passhash algorithm
   -- fixed problem with topaz-chat (and maybe other clients, too)
      not propperly displaying tmpOP on initial channel join

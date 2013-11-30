@@ -26,7 +26,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef t_uint8  bn_basic;
@@ -49,7 +49,7 @@ typedef bn_basic bn_long[8];
 # include "compat/uint.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int bn_byte_tag_get(bn_byte const * src, char * dst, unsigned int len);

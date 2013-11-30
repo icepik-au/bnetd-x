@@ -19,7 +19,7 @@
 #define INCLUDED_STRERROR_PROTOS
 
 #if defined(WIN32)
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char const * pstrerror(int errornum);

@@ -26,7 +26,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 /* There is no header for this packet class and there is only

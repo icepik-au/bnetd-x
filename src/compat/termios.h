@@ -21,7 +21,7 @@
 /* FIXME: this might already exist even if termios.h doesn't... check
    for the type in autoconf */
 # ifndef HAVE_TERMIOS_H
-namespace pvpgn
+namespace bnetd-x
 {
 
 struct termios

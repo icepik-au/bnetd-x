@@ -29,7 +29,7 @@
 #endif
 #include "common/elist.h"
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
@@ -72,7 +72,7 @@ t_timer;
 #include "connection.h"
 #undef JUST_NEED_TYPES
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

@@ -20,7 +20,7 @@
 #ifndef __DDBS_CMDLINE_H_PROTOS__
 #define __D2DBS_CMDLINE_H_PROTOS__
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

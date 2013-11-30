@@ -24,7 +24,7 @@
 #include "common/setup_after.h"
 
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern char * strdup(char const * str)

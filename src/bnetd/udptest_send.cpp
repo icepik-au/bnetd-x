@@ -34,7 +34,7 @@
 
 extern std::FILE * hexstrm; /* from main.c */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd

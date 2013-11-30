@@ -24,7 +24,7 @@
 #ifdef HAVE__SNPRINTF
 #define snprintf _snprintf
 #else
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int snprintf(char *str, size_t size, const char *format, ...);

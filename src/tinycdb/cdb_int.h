@@ -10,7 +10,7 @@
 # define EPROTO EINVAL
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 struct cdb_rec {

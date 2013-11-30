@@ -18,7 +18,7 @@
 #ifndef INCLUDED_NET_H
 #define INCLUDED_NET_H
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2cs

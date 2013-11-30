@@ -31,7 +31,7 @@
 #pragma pack(push, pack01, 1)
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct

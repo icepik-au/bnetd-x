@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004  CreepLord (creeplord@pvpgn.org)
+ * Copyright (C) 2004  CreepLord (creeplord@bnetd-x.org)
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -28,7 +28,7 @@
 # undef JUST_NEED_TYPES
 #endif
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 typedef struct
@@ -51,7 +51,7 @@ typedef struct
 #define TRANS_BNETD 1
 #define TRANS_D2CS  2
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 extern int trans_load(char const * filename, int program);

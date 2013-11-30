@@ -14,7 +14,7 @@
 
 /* read a chunk from file, ignoring interrupts (EINTR) */
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 int

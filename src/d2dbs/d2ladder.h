@@ -30,7 +30,7 @@
 #define DEFAULT_LADDER_DIR		"var/ladders"
 #define LADDERFILE_CHECKSUM_OFFSET	offsetof(t_d2ladderfile_header,checksum)
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace d2dbs

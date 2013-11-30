@@ -30,7 +30,7 @@
 
 //#define COMMANDGROUPSDEBUG 1
 
-namespace pvpgn
+namespace bnetd-x
 {
 
 namespace bnetd
