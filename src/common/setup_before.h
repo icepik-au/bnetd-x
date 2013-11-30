@@ -143,7 +143,7 @@ const char * const BNETD_CHANLOG_DIR = "chanlogs";
 const char * const BNETD_REALM_FILE = "conf/realm.conf";
 const char * const BNETD_ISSUE_FILE = "conf/bnissue.txt";
 const char * const BNETD_MAIL_DIR = "var/bnmail";
-const char * const PVPGN_VERSIONCHECK = "conf/versioncheck.conf";
+const char * const BNETD_VERSIONCHECK = "conf/versioncheck.conf";
 const char * const BNETD_LADDER_DIR = "var/ladders";
 const char * const BNETD_STATUS_DIR = "var/status";
 const char * const BNETD_TOPIC_FILE = "var/topics";
@@ -227,7 +227,7 @@ const int BNETD_REALM_PORT = 6113;  /* where D2CS listens */
 const char * const BNETD_TELNET_ADDRS = ""; /* this means none */
 const int BNETD_TELNET_PORT = 23; /* used if port not specified */
 const char * const BNETD_EXEINFO_MATCH = "exact";
-const unsigned PVPGN_VERSION_TIMEDIV = 0; /* no timediff check by default */
+const unsigned BNETD_VERSION_TIMEDIV = 0; /* no timediff check by default */
 const int PVPGN_CACHE_MEMLIMIT = 5000000;  /* bytes */
 const char * const PVPGN_DEFAULT_SYMB = "-_[]";
 

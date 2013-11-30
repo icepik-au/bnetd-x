@@ -388,7 +388,7 @@ static void guiOnSize(HWND hwnd, UINT state, int cx, int cy)
 		dta.hIcon = LoadIcon(GetWindowInstance(hwnd), MAKEINTRESOURCE(IDI_ICON1));
 		strcpy(dta.szTip, "PvPGN");
 		strcat(dta.szTip, " ");
-		strcat(dta.szTip, PVPGN_VERSION);
+		strcat(dta.szTip, BNETD_VERSION);
 		Shell_NotifyIcon(NIM_ADD, &dta);
 		ShowWindow(hwnd, SW_HIDE);
 		return;

@@ -189,9 +189,9 @@ extern int main(int argc, char * argv[])
     }
 
 #ifdef HAVE_GETPID
-    eventlog(eventlog_level_info,__FUNCTION__,"bntrackd version "PVPGN_VERSION" process %u",(unsigned int)getpid());
+    eventlog(eventlog_level_info,__FUNCTION__,"bntrackd version "BNETD_VERSION" process %u",(unsigned int)getpid());
 #else
-    eventlog(eventlog_level_info,__FUNCTION__,"bntrackd version "PVPGN_VERSION);
+    eventlog(eventlog_level_info,__FUNCTION__,"bntrackd version "BNETD_VERSION);
 #endif
 
     if (psock_init()<0)
@@ -694,7 +694,7 @@ void getprefs(int argc, char * argv[])
             usage(argv[0]);
 	else if (std::strcmp(argv[a],"-v")==0 || std::strcmp(argv[a],"--version")==0)
         {
-            std::printf("version "PVPGN_VERSION"\n");
+            std::printf("version "BNETD_VERSION"\n");
             std::exit(0);
         }
 	else if (std::strcmp(argv[a],"--command")==0 || std::strcmp(argv[a],"--expire")==0 ||

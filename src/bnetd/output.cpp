@@ -113,7 +113,7 @@ int output_standard_writer(std::FILE * fp)
         seconds = uptime % 60;
 
         std::fprintf(fp,"<?xml version=\"1.0\"?>\n<status>\n");
-        std::fprintf(fp,"\t\t<Version>%s</Version>\n",PVPGN_VERSION);
+        std::fprintf(fp,"\t\t<Version>%s</Version>\n",BNETD_VERSION);
         std::fprintf(fp,"\t\t<Uptime>\n");
         std::fprintf(fp,"\t\t\t<Days>%d</Days>\n",days);
         std::fprintf(fp,"\t\t\t<Hours>%d</Hours>\n",hours);
@@ -153,7 +153,7 @@ int output_standard_writer(std::FILE * fp)
     }
     else
     {
-	std::fprintf(fp,"[STATUS]\nVersion=%s\nUptime=%s\nGames=%d\nUsers=%d\nChannels=%d\nUserAccounts=%d\n",PVPGN_VERSION,seconds_to_timestr(uptime),gamelist_get_length(),connlist_login_get_length(),channellist_get_length(),accountlist_get_length()); // Status
+	std::fprintf(fp,"[STATUS]\nVersion=%s\nUptime=%s\nGames=%d\nUsers=%d\nChannels=%d\nUserAccounts=%d\n",BNETD_VERSION,seconds_to_timestr(uptime),gamelist_get_length(),connlist_login_get_length(),channellist_get_length(),accountlist_get_length()); // Status
 	std::fprintf(fp,"[CHANNELS]\n");
 	number=1;
 	LIST_TRAVERSE_CONST(channellist(),curr)

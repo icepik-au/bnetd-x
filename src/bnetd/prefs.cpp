@@ -2521,7 +2521,7 @@ static int conf_set_versioncheck_file(const char *valstr)
 
 static int conf_setdef_versioncheck_file(void)
 {
-    return conf_set_str(&prefs_runtime_config.versioncheck_file,NULL,PVPGN_VERSIONCHECK);
+    return conf_set_str(&prefs_runtime_config.versioncheck_file,NULL,BNETD_VERSIONCHECK);
 }
 
 static const char* conf_get_versioncheck_file(void)
@@ -2668,7 +2668,7 @@ static int conf_set_version_exeinfo_maxdiff(const char *valstr)
 
 static int conf_setdef_version_exeinfo_maxdiff(void)
 {
-    return conf_set_int(&prefs_runtime_config.version_exeinfo_maxdiff,NULL,PVPGN_VERSION_TIMEDIV);
+    return conf_set_int(&prefs_runtime_config.version_exeinfo_maxdiff,NULL,BNETD_VERSION_TIMEDIV);
 }
 
 static const char* conf_get_version_exeinfo_maxdiff(void)

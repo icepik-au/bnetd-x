@@ -158,8 +158,8 @@ extern int handle_irc_welcome(t_connection * conn)
         std::sprintf(temp,":Maximum length exceeded");
     irc_send(conn,RPL_WELCOME,temp);
 
-    if ((14+std::strlen(server_get_hostname())+10+std::strlen(PVPGN_SOFTWARE" "PVPGN_VERSION)+1)<=MAX_IRC_MESSAGE_LEN)
-        std::sprintf(temp,":Your host is %s, running "PVPGN_SOFTWARE" "PVPGN_VERSION,server_get_hostname());
+    if ((14+std::strlen(server_get_hostname())+10+std::strlen(BNETD_SOFTWARE" "BNETD_VERSION)+1)<=MAX_IRC_MESSAGE_LEN)
+        std::sprintf(temp,":Your host is %s, running "BNETD_SOFTWARE" "BNETD_VERSION,server_get_hostname());
     else
         std::sprintf(temp,":Maximum length exceeded");
     irc_send(conn,RPL_YOURHOST,temp);
@@ -173,13 +173,13 @@ extern int handle_irc_welcome(t_connection * conn)
     irc_send(conn,RPL_CREATED,temp);
 
     /* we don't give mode information on MYINFO we give it on ISUPPORT */
-    if ((std::strlen(server_get_hostname())+7+std::strlen(PVPGN_SOFTWARE" "PVPGN_VERSION)+9+1)<=MAX_IRC_MESSAGE_LEN)
-        std::sprintf(temp,"%s "PVPGN_SOFTWARE" "PVPGN_VERSION" - -",server_get_hostname());
+    if ((std::strlen(server_get_hostname())+7+std::strlen(BNETD_SOFTWARE" "BNETD_VERSION)+9+1)<=MAX_IRC_MESSAGE_LEN)
+        std::sprintf(temp,"%s "BNETD_SOFTWARE" "BNETD_VERSION" - -",server_get_hostname());
     else
         std::sprintf(temp,":Maximum length exceeded");
     irc_send(conn,RPL_MYINFO,temp);
 
-    std::sprintf(temp,"NICKLEN=%d TOPICLEN=%d CHANNELLEN=%d PREFIX=%s CHANTYPES="CHANNEL_TYPE" NETWORK=%s IRCD="PVPGN_SOFTWARE,
+    std::sprintf(temp,"NICKLEN=%d TOPICLEN=%d CHANNELLEN=%d PREFIX=%s CHANTYPES="CHANNEL_TYPE" NETWORK=%s IRCD="BNETD_SOFTWARE,
     MAX_CHARNAME_LEN, MAX_TOPIC_LEN, MAX_CHANNELNAME_LEN, CHANNEL_PREFIX, prefs_get_irc_network_name());
 
     if((std::strlen(temp))<=MAX_IRC_MESSAGE_LEN)

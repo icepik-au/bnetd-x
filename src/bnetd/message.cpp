@@ -239,7 +239,7 @@ extern char * message_format_line(t_connection const * c, char const * in)
 		break;
 
 	    case 'v':
-		std::strcpy(&out[outpos],PVPGN_SOFTWARE" "PVPGN_VERSION);
+		std::strcpy(&out[outpos],BNETD_SOFTWARE" "BNETD_VERSION);
 		outpos += std::strlen(&out[outpos]);
 		break;
 

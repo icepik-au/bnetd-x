@@ -653,7 +653,7 @@ static void bnpcap_process_packet(u_char * private_, const struct pcap_pkthdr * 
 
 static void bnpcap_usage(void) {
    std::printf("BNPCAP - A tool to convert pcap battle.net dumps to a human-readable format.\n");
-   std::printf("Version " PVPGN_VERSION " --- Copyright (c) 2001  Marco Ziech (mmz@gmx.net)\n");
+   std::printf("Version " BNETD_VERSION " --- Copyright (c) 2001  Marco Ziech (mmz@gmx.net)\n");
    std::printf("This software makes use of libpcap.\n\n");
    std::printf("Usage: bnpcap [-d] [-v] [-p PORT] <pcap-filename>\n");
    std::printf("   -d          Print out debugging information\n");

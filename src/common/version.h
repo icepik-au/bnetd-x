@@ -13,9 +13,9 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
-#ifndef PVPGN_VERSION
-#define PVPGN_VERSION "1.99.0-SVN"
+#ifndef BNETD_VERSION
+#define BNETD_VERSION "1.99.0-SVN"
 #endif
-#ifndef PVPGN_SOFTWARE
-#define PVPGN_SOFTWARE "PvPGN"
+#ifndef BNETD_SOFTWARE
+#define BNETD_SOFTWARE "PvPGN"
 #endif

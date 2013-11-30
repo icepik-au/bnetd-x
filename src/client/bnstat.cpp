@@ -334,7 +334,7 @@ extern int main(int argc, char * argv[])
             usage(argv[0]);
 	else if (std::strcmp(argv[a],"-v")==0 || std::strcmp(argv[a],"--version")==0)
 	{
-            std::printf("version "PVPGN_VERSION"\n");
+            std::printf("version "BNETD_VERSION"\n");
             return EXIT_SUCCESS;
 	}
         else if (std::strcmp(argv[a],"--client")==0 || std::strcmp(argv[a],"--owner")==0 ||

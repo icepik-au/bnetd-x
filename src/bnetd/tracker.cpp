@@ -110,11 +110,11 @@ extern int tracker_send_report(t_addrlist const * laddrs)
 		sizeof(packet.server_location));
 	bn_byte_set(&packet.server_location[sizeof(packet.server_location)-1],'\0');
 	std::strncpy((char *)packet.software,
-		PVPGN_SOFTWARE,
+		BNETD_SOFTWARE,
 		sizeof(packet.software));
 	bn_byte_set(&packet.software[sizeof(packet.software)-1],'\0');
 	std::strncpy((char *)packet.version,
-		PVPGN_VERSION,
+		BNETD_VERSION,
 		sizeof(packet.version));
 	bn_byte_set(&packet.version[sizeof(packet.version)-1],'\0');
 	std::strncpy((char *)packet.server_desc,

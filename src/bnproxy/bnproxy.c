@@ -914,7 +914,7 @@ extern int main(int argc, char * argv[])
             usage(argv[0]);
         else if (strcmp(argv[a],"-v")==0 || strcmp(argv[a],"--version")==0)
         {
-            printf("version "PVPGN_VERSION"\n");
+            printf("version "BNETD_VERSION"\n");
             return STATUS_SUCCESS;
         }
         else if (strcmp(argv[a],"--hexdump")==0 || strcmp(argv[a],"--logfile")==0 || strcmp(argv[a],"--port")==0)
