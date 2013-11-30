@@ -57,7 +57,7 @@ NONE                        "Diablo II"	            D2XP  true  false false  NUL
 #   - 41 = Yuri's Revenge channels                                           #
 #                                                                            #
 # DO NOT USE game type nubers 38,39 and 40. This numbers are used for        #
-# Quick match services and are hardcoded in PvPGN.                           #
+# Quick match services and are hardcoded in BNETD-X.                           #
 #                                                                            #
 # In WOLv1 (Westwood Chat client) are not used "Lob xx x" formated channels. #
 #                                                                            #

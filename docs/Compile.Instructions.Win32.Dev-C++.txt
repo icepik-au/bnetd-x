@@ -1,5 +1,5 @@
-PvPGN Win32 Dev-C++ Compile Instructions
-This file explains how to compile PvPGN for Win32 using Dev-C++ ( 5.0 beta 9 (4.9.9.0) )
+BNETD-X Win32 Dev-C++ Compile Instructions
+This file explains how to compile BNETD-X for Win32 using Dev-C++ ( 5.0 beta 9 (4.9.9.0) )
 
 1) Download Dev-C++ 5.0 beta 9 (4.9.9.0) with Mingw/GCC 3.3.1 from the folling sites:
 http://prdownloads.sourceforge.net/dev-cpp/devcpp4990setup.exe
@@ -8,10 +8,10 @@ http://prdownloads.sourceforge.net/dev-cpp/devcpp4990setup.exe
 
 3) From within Dev-C++ install the zlib-DevPak from the DevPacks.org community server (Tools->Check for Updates/Packages)
 
-4) Go into the Win32-Projects folder of the PvPGN sources
+4) Go into the Win32-Projects folder of the BNETD-X sources
 Simply double-click on any of the *.dev files to fire up Dev-C++ and use Execute->Compile to build the binary
 
-5) The resulting exe file will be in the bin directory and you can use it with the other files from the latest PvPGN release.
+5) The resulting exe file will be in the bin directory and you can use it with the other files from the latest BNETD-X release.
 
 Notes for MYSQL/PGSQL/SQLITE3/ODBC Support:
  support with Dev-C++ still unsupported/untested

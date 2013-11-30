@@ -53,7 +53,7 @@
 # Westwood Online related informations                                       #
 #----------------------------------------------------------------------------#
 # For WOL autoupdate is used standart FTP protocol which is not included in  #
-# PvPGN. The default WOL autoupdate entryes are writed according to          #
+# BNETD-X. The default WOL autoupdate entryes are writed according to          #
 # westwood's autoupdate FTP server settings (username, password, filepath).  #
 #                                                                            #
 # WOLv2 using diferent rtp files for the diferent SKUs. This is accounted    #

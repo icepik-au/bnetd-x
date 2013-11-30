@@ -1,4 +1,4 @@
-# this file determines the layout of the PvPGN SQL database
+# this file determines the layout of the BNETD-X SQL database
 # the server will create the tables with their columns as specified in here
 # don't forget to create the DB yourself
 # no empty lines allowed, no whitespaces in front of any entries allowed

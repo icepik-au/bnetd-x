@@ -1659,7 +1659,7 @@ static int _handle_friends_command(t_connection * c, char const * text)
 	int num;
 	unsigned int uid;
 
-	message_send_text(c,message_type_info,c,"Your PvPGN - Friends List");
+	message_send_text(c,message_type_info,c,"Your BNETD-X - Friends List");
 	message_send_text(c,message_type_info,c,"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 	num = account_get_friendcount(my_acc);
 
@@ -2074,7 +2074,7 @@ static int _handle_copyright_command(t_connection * c, char const *text)
     {
       " Copyright (C) 2002 - 2008  See source for details",
       " ",
-      " PvPGN is free software; you can redistribute it and/or",
+      " BNETD-X is free software; you can redistribute it and/or",
       " modify it under the terms of the GNU General Public License",
       " as published by the Free Software Foundation; either version 2",
       " of the License, or (at your option) any later version.",
@@ -2302,9 +2302,9 @@ static int _handle_time_command(t_connection * c, char const *text)
   btlocal = bnettime_add_tzbias(btsystem,local_tzbias());
   now = bnettime_to_time(btlocal);
   if (!(tmnow = std::gmtime(&now)))
-    std::strcpy(msgtemp,"PvPGN Server Time: ?");
+    std::strcpy(msgtemp,"BNETD-X Server Time: ?");
   else
-    std::strftime(msgtemp,sizeof(msgtemp),"PvPGN Server Time: %a %b %d %H:%M:%S",tmnow);
+    std::strftime(msgtemp,sizeof(msgtemp),"BNETD-X Server Time: %a %b %d %H:%M:%S",tmnow);
   message_send_text(c,message_type_info,c,msgtemp);
   if (conn_get_class(c)==conn_class_bnet)
     {

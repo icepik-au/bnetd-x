@@ -7,7 +7,7 @@ hope that this will improve the quality of questions on support channels.
               Readme for Player vs. Player Gaming Network
              ---------------------------------------------
 
-    PvPGN is a BNETD mod which aims to provide support for all Blizzard 
+    BNETD-X is a BNETD mod which aims to provide support for all Blizzard 
 clients (thus it supports all BNETD supported clients plus the most recent 
 ones). 
 
@@ -45,7 +45,7 @@ Westwood Online games:
 
     The documentation is located in the docs directory. Please read docs/INDEX 
 for a list of files and what they contain.
-    If you are updating from a previous PvPGN version check the file UPDATE 
+    If you are updating from a previous BNETD-X version check the file UPDATE 
 first.
 
 

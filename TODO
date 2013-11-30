@@ -1,4 +1,4 @@
-PvPGN TODO LIST AND WHATS BEING WORKED ON:
+BNETD-X TODO LIST AND WHATS BEING WORKED ON:
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 Release v1.7 ROADMAP:
@@ -39,4 +39,4 @@ very nice ideea from Mivabe
 * add some way to be able to read/write specific "runtime changable" bnetd.conf
 entries (like while server is online doing /config "allow_unknown_version" "false")
 
-* optimize PvPGN using "inline" functions in all "small" functions
+* optimize BNETD-X using "inline" functions in all "small" functions

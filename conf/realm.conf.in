@@ -24,4 +24,4 @@
 # WARNING!! DO NOT USE "127.0.0.1" or "localhost" FOR ANY IP ADDRESS
 
 # example (having a d2cs server running on IP 1.2.3.4):
-#"D2CS"			"PvPGN Closed Realm"		1.2.3.4:6113
+#"D2CS"			"BNETD-X Closed Realm"		1.2.3.4:6113

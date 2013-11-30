@@ -1,4 +1,4 @@
-Commandes d'aides du salon de discussions de PvPGN(serveur Emulateur Bnet)
+Commandes d'aides du salon de discussions de BNETD-X(serveur Emulateur Bnet)
 
 Nouvelles commandes:
 

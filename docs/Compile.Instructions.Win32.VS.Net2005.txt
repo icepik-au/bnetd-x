@@ -1,4 +1,4 @@
-A step-by-step guide for building the SVN version of PvPGN using Visual Studio Professional
+A step-by-step guide for building the SVN version of BNETD-X using Visual Studio Professional
 ===========================================================================================
 
 Requirements:
@@ -7,7 +7,7 @@ Requirements:
      (you can also use Visual C++ Express - but this will need additional 
        tweaking that is beyond the scope of this guide.)
  - zlib ( http://www.winimage.com/zLibDll/zlib123dll.zip AND http://www.winimage.com/zLibDll/zlib123.zip )
- - latest PvPGN sources from SVN (in this example I have them extracted under D:/svn/pvpgn/ )
+ - latest BNETD-X sources from SVN (in this example I have them extracted under D:/svn/pvpgn/ )
  
  Optional:
  - MySQL ( http://dev.mysql.com/get/Downloads/MySQL-5.0/mysql-5.0.45-win32.zip/from/pick#mirrors )
@@ -20,8 +20,8 @@ Requirements:
 Step-by-step guide:
  - install Visual Studio Professional (obviously not required when allread done)
  - install CMake (same applies here)
- - extract PvPGN sources from zip/tarball or get them via SVN
- - create a folder called "zlib" inside you PvPGN base folder ( i.e. D:/svn/pvpgn/zlib/ )
+ - extract BNETD-X sources from zip/tarball or get them via SVN
+ - create a folder called "zlib" inside you BNETD-X base folder ( i.e. D:/svn/pvpgn/zlib/ )
  - extract the following files from zlib123.zip into the "zlib" folder:
       zconf.h, zlib.h
  - extract the following file from zlib123dll.zip (from with dll32 folder) into the "zlib" folder:
@@ -29,7 +29,7 @@ Step-by-step guide:
  - install MySQL if you intend to use it as a storage backend
  - install PostgreSQL if you intend to use it as a storage backend
  - SQLite stub - need some extra tweaking to be explained later (in version 2.0 of this guide)
- - create a folder called "build" inside you PvPGN base folder ( i.e. D:/svn/pvpgn/build/ )
+ - create a folder called "build" inside you BNETD-X base folder ( i.e. D:/svn/pvpgn/build/ )
  - fire up CMake (I'll use the GUI version for this guide - so you should use it, too)
  - Where is the source code: D:\svn\pvpgn
  - Where to build the binaries: D:\svn\pvpgn\build

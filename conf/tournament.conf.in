@@ -52,10 +52,10 @@ races		= "HONUR"
 
 # Notice Format: quotes required:
 
-format		= "PvPGN 1v1 Tournament"
+format		= "BNETD-X 1v1 Tournament"
 
 # Notice Sponsor: quotes required:
-sponsor		= "The PvPGN Team"
+sponsor		= "The BNETD-X Team"
 
 # Notice Icon: quotes required:
 #-----------------------------------------------------------------#

@@ -1,5 +1,5 @@
 /*
-  * Abstraction API/layer for the various ways PvPGN can inspect sockets state
+  * Abstraction API/layer for the various ways BNETD-X can inspect sockets state
   * 2003 (C)
   *
   * Code is based on the ideas found in thttpd project.

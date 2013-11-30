@@ -3,7 +3,7 @@
 <xsl:output method="html" indent="yes" encoding="UTF-8" doctype-public="-//W3C/DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" standalone="yes" media-type="text/html"/>
 <xsl:template match="/">
 <html>
-<head><title>PvPGN XML Server List</title>
+<head><title>BNETD-X XML Server List</title>
 <link href="main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>

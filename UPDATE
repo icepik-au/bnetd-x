@@ -100,7 +100,7 @@ Configuration files changed:
 
 Because of the many changes in 1.7.0 we recommend to use a clean install 
 and update the configuration files as necesarry. Things to note:
-1. you now need GNU make to build PvPGN on POSIX systems (on Linux this is 
+1. you now need GNU make to build BNETD-X on POSIX systems (on Linux this is 
 just "make" but on *BSD is "gmake")
 2. d2trans,gametrans,w3trans have been unified under address_translation.conf 
 file which has a complete new syntax so take care with that

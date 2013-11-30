@@ -876,7 +876,7 @@ static int _handle_end_apiregtag(t_apiregmember * apiregmember, char * param)
                     account_set_wol_apgar(tempacct,wol_pass_hash);
                     if (apiregmember_get_email(apiregmember))
                         account_set_email(tempacct,apiregmember_get_email(apiregmember));
-                    snprintf(message,sizeof(message),"Welcome in the amazing world of PvPGN! Your login can be used for all PvPGN Supported games!");
+                    snprintf(message,sizeof(message),"Welcome in the amazing world of BNETD-X! Your login can be used for all BNETD-X Supported games!");
                     snprintf(hresult,sizeof(hresult),"0");
                 }
             }

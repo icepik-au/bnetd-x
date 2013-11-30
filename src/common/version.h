@@ -17,5 +17,5 @@
 #define BNETD_VERSION "1.99.0-SVN"
 #endif
 #ifndef BNETD_SOFTWARE
-#define BNETD_SOFTWARE "PvPGN"
+#define BNETD_SOFTWARE "BNETD-X"
 #endif

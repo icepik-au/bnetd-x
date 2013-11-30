@@ -27,8 +27,8 @@ loss in playgame disconnects" or something like that
 OS (operating system) you run pvpgn, configure command line you used if you 
 compiled your source on Unix/Linux
 - after that describe in detail your problem; what exactly did you tried to do, 
-what did you expected from PvPGN and what happened wrong; also try before 
+what did you expected from BNETD-X and what happened wrong; also try before 
 reporting the problem to find a way to reproduce the problem, that is to find 
-the steps which if someone from the PvPGN team will do then they will get the 
+the steps which if someone from the BNETD-X team will do then they will get the 
 problem too, and describe exactly the reproduction steps
 - thank you for the bug report!

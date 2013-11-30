@@ -1,4 +1,4 @@
-PvPGN Bnet Emulation Chat Help Commands
+BNETD-X Bnet Emulation Chat Help Commands
 
 Новые команды:
 

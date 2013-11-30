@@ -1451,7 +1451,7 @@ extern int _handle_kick_command(t_connection * conn, int numparams, char ** para
 
     e = irc_get_listelems(params[1]);
 
-    /* Make standart PvPGN KICK from RFC2812 KICK */
+    /* Make standart BNETD-X KICK from RFC2812 KICK */
     if (text)
         snprintf(temp, sizeof(temp), "/kick %s %s", e[0], text);
     else

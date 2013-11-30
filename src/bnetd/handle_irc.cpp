@@ -608,9 +608,9 @@ static int _handle_whois_command(t_connection * conn, int numparams, char ** par
 	    for (i=0; ((e)&&(e[i]));i++) {
     	  if ((c = connlist_find_connection_by_accountname(e[i]))) {
 		    if (prefs_get_hide_addr() && !(account_get_command_groups(conn_get_account(conn)) & command_get_group("/admin-addr")))
-		      snprintf(temp, sizeof(temp), "%s %s hidden * :%s", e[i], clienttag_uint_to_str(conn_get_clienttag(c)), "PvPGN user");
+		      snprintf(temp, sizeof(temp), "%s %s hidden * :%s", e[i], clienttag_uint_to_str(conn_get_clienttag(c)), "BNETD-X user");
 		    else
-		      snprintf(temp, sizeof(temp), "%s %s %s * :%s", e[i], clienttag_uint_to_str(conn_get_clienttag(c)), addr_num_to_ip_str(conn_get_addr(c)), "PvPGN user");
+		      snprintf(temp, sizeof(temp), "%s %s %s * :%s", e[i], clienttag_uint_to_str(conn_get_clienttag(c)), addr_num_to_ip_str(conn_get_addr(c)), "BNETD-X user");
 		    irc_send(conn,RPL_WHOISUSER,temp);
 
 		    if ((chan=conn_get_channel(conn))) {

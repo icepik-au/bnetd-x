@@ -1,10 +1,10 @@
 ##############################################################################
-# bnetd.conf  -  Configuration file for the main PvPGN service               #
+# bnetd.conf  -  Configuration file for the main BNETD-X service               #
 #----------------------------------------------------------------------------#
 #                                                                            #
 # ############ READ THIS ######### READ THIS ########## READ THIS ############
 # This file is an example configuration that should work UNMODIFIED for most #
-# of the PvPGN setups and may require modification to suit your needs.       #
+# of the BNETD-X setups and may require modification to suit your needs.       #
 # Blank lines and everything after a "#" are ignored.  Use quotes around     #
 # values that contain spaces.                                                #
 #                                                                            #
@@ -292,7 +292,7 @@ kick_old_login = true
 # With no passwords, this is bad to have enabled --NonReal
 
 # load_new_account option has been eliminated and the functionality now is 
-# always active in PvPGN
+# always active in BNETD-X
 
 # If a user is creating a new channel, should it be added automatically, or
 # prompt them first?
@@ -451,7 +451,7 @@ track = 60
 location = "unknown"
 description = "unknown"
 url = "unknown"
-contact_name = "a PvPGN user"
+contact_name = "a BNETD-X user"
 contact_email = "unknown"
 
 #                                                                            #
@@ -462,8 +462,8 @@ contact_email = "unknown"
 # Server network info                                                        #
 #----------------------------------------------------------------------------#
 
-# Servername by which the server identifies itself (default: "PvPGN Realm")
-#servername = "PvPGN Realm"
+# Servername by which the server identifies itself (default: "BNETD-X Realm")
+#servername = "BNETD-X Realm"
 
 # Set this to the maximum number of concurrent connections allowed on 
 # this server (minimum 32). This limit sets a general server connection 
@@ -546,7 +546,7 @@ wollatitude = "-115.0582"
 
 # These as default means that WOL autoupdate will use official WOL FTP server.
 # As "wol_update_serverhost" can be used also an IP address. FTP server is not
-# component of PvPGN so for that purpose can be used any FTP server.
+# component of BNETD-X so for that purpose can be used any FTP server.
 # Note that username and password is specifiable only in WOLv2 protocol. WOLv1
 # will always use the default values. 
 wol_autoupdate_serverhost = "westwood-patch.ea.com"
@@ -569,8 +569,8 @@ wol_autoupdate_password = "world96"
 #ircaddrs = ":6667"
 
 # This is the IRC network name. If this is not specified then the default of
-# "PvPGN" will be used.
-#irc_network_name = "PvPGN"
+# "BNETD-X" will be used.
+#irc_network_name = "BNETD-X"
 
 # This is the hostname used for IRC connections. Set this to your
 # hostname, if the automatic detection doesn't correctly. 

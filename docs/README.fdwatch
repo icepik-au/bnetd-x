@@ -1,16 +1,16 @@
-	PvPGN Abstract socket event notification API ie fdwatch
+	BNETD-X Abstract socket event notification API ie fdwatch
 	    v.01 (C) 2003 Dizzy <>
 
 
 1. The problem:
 
-    I wanted to design and implement a general API to have PvPGN inspect
+    I wanted to design and implement a general API to have BNETD-X inspect
 socket status (read/write availability) in the best possible way that the
 host OS may offer (select()/poll()/kqueue()/epoll()/etc..).
-    Also the old PvPGN code to do such things was doing them in a very 
+    Also the old BNETD-X code to do such things was doing them in a very 
 slow way, especially if the system was using poll() (which was the default
 with most Unices). When the server started to have lots of active connections 
-the CPU used in PvPGN to inspect and handle them was increasing very much (the
+the CPU used in BNETD-X to inspect and handle them was increasing very much (the
 code complexity of the code executed each main loop run was of O(n^2) complexity,
 where n is the number of connections to the server, and the main loop is cycling
 at least 1000/BNETD_POLL_INTERVAL times per second ie at least 50 times per second).

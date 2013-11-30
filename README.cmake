@@ -1,4 +1,4 @@
-                      PvPGN CMake Build Instructions
+                      BNETD-X CMake Build Instructions
                     ===================================
 
 
@@ -6,7 +6,7 @@
 0. Getting "cmake"
 
    Before anything you need to make sure you have a cmake (at least version
-2.4.3) installed on the system you wish to compile PvPGN. On Linux/*BSD systems 
+2.4.3) installed on the system you wish to compile BNETD-X. On Linux/*BSD systems 
 this sould probably be provided by your package system one way or another or 
 you could try to build cmake from source. Follow the "Readme.txt" from cmake 
 sources if you are going over that path.
@@ -63,7 +63,7 @@ accordingly values so that on "make install" it will install relative to
 
    -D WITH_MYSQL=true : it will tell cmake to check for MySQL 
 headers/libraries and if present prepare project files able to compile 
-PvPGN with MySQL
+BNETD-X with MySQL
 
    -D WITH_PGSQL=true or -D WITH_SQLITE3=true are similar to WITH_MYSQL 
 but for PostgreSQL/SQLite3 storage support
@@ -75,7 +75,7 @@ stack traces)
 or at least remove the CMakeCache.txt file otherwise you may experience 
 strange problems.
 
-2. Building PvPGN
+2. Building BNETD-X
 
     After successfully running cmake you are ready to build pvpgn. 
 Depending on your project files generator used with cmake you do this in 
@@ -84,7 +84,7 @@ various ways. Example: when using "Unix Makefiles" you should just issue
 project file types such as KDevelop3 or Visual Studio you should run the 
 "Build" command of that IDE.
 
-3. Installing PvPGN
+3. Installing BNETD-X
 
 
    Again, depending on the type of project files generator you used you 
@@ -111,7 +111,7 @@ with MySQL support
 5. Problems
 
 
-   cmake building in PvPGN is a young feature as such many issues may 
+   cmake building in BNETD-X is a young feature as such many issues may 
 still arise. If you have problems with cmake please contact us at 
 pvpgn-dev@berlios.de (after you subscribe to the mailing list at 
 https://lists.berlios.de/mailman/listinfo/pvpgn-dev) or use the bug 

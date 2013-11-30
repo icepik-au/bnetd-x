@@ -1,6 +1,6 @@
 <?php
 /*
-** PHP implementation of the PvPGN Password Hash Algorithm.
+** PHP implementation of the BNETD-X Password Hash Algorithm.
 
 ** Copyright 2004 Aaron (aaron@pvpgn.org)
 

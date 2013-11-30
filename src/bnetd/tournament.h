@@ -40,7 +40,7 @@ typedef struct
     char *       sponsor;       /* format: "ricon,sponsor"
                                  * ricon = W3+icon reversed , if 2 char icon is selected
 				 *  or reversed icon if 4 char icon is selected
-				 * ie. "4R3W,The PvPGN Team"
+				 * ie. "4R3W,The BNETD-X Team"
 				 */
     unsigned int thumbs_down;
 } t_tournament_info;

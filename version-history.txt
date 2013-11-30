@@ -1,4 +1,4 @@
-PvPGN Version History:
+BNETD-X Version History:
 
  Changelog for SVN TRUNK (since 1.8.5)
 =========================================
@@ -250,7 +250,7 @@ PvPGN Version History:
   priority anymore)
   -- optimized some "compat" codes
   -- updated more places where people get directed to IRC with the other 
-  support channels (should reduce the "n00b" infestation that PvPGN 
+  support channels (should reduce the "n00b" infestation that BNETD-X 
   IRC suffers of)
   -- added versioncheck for D2 LOD 1.11 and D2 classic 1.11
   -- updated versioncheck with latest client versions (War3 1.18a, SC/BW 1.13 
@@ -411,7 +411,7 @@ PvPGN Version History:
 [IRC]: major cleanup of handle_irc.c
   -- hiding IP on channel join/leave to non admins when hide_addr=true
   -- now on IRC channel topics are supported (at least their output)
-  -- PvPGN can only handle being in one channel at once, so the server
+  -- BNETD-X can only handle being in one channel at once, so the server
   now makes sure you leave the channel you were previously in.
   -- added /NOTICE, /ISON and /WHOIS handling
   -- now the real MOTD displays when connecting via IRC

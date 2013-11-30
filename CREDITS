@@ -1,9 +1,9 @@
-PvPGN CREDITS (also please see the original BNETD credits bellow):
+BNETD-X CREDITS (also please see the original BNETD credits bellow):
 --------------------------------------------------------------------
 
 CREDITS
 	This file contains the names of people who have contributed to the 
-	development of the PvPGN BNETD mod in some way. This file is not 
+	development of the BNETD-X BNETD mod in some way. This file is not 
 	complete and we would like to thank everyone who helped us in any way.
 
 PROGRAMMING CONTRIBUTORS
@@ -32,7 +32,7 @@ PROGRAMMING CONTRIBUTORS
 	 Clans, friends codes optimization, D2 stuff, w3 gameinfo etc.
 
 	TheUndying aka Undy (kainofchaos80@hotmail.com)
-	 PvPGN project starter, initial code maintainance and management, 
+	 BNETD-X project starter, initial code maintainance and management, 
 	 initial W3 support codes, etc.
 
 	Zzzoom (servers@3dgames.com.ar)
@@ -46,7 +46,7 @@ MISC
 
         U-238 (mark@darkterrorsdomain.cjb.net)
          Webmaster, Mac binary packager, Mac versioncheck maintainer, 
-         PvPGN fink package maintainer, supporter (IRC, forums), tester, 
+         BNETD-X fink package maintainer, supporter (IRC, forums), tester, 
          documentation writer.
 
         David Wilson (dgwilson@paradise.net.nz)

@@ -1,9 +1,9 @@
- PvPGN C++ conversion changelog
+ BNETD-X C++ conversion changelog
 ================================
 
 What is this file all about?
 ----------------------------
-As some of you might have noticed PvPGN is currently undergoing lots of changes 
+As some of you might have noticed BNETD-X is currently undergoing lots of changes 
 while the code is being converted from C to C++. This file is ment to keep
 track of the changes made -  and possible implications to users/admins.
 

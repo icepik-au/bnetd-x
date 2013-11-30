@@ -386,7 +386,7 @@ static void guiOnSize(HWND hwnd, UINT state, int cx, int cy)
 		dta.uFlags = NIF_ICON|NIF_MESSAGE|NIF_TIP;
 		dta.uCallbackMessage = WM_SHELLNOTIFY;
 		dta.hIcon = LoadIcon(GetWindowInstance(hwnd), MAKEINTRESOURCE(IDI_ICON1));
-		strcpy(dta.szTip, "PvPGN");
+		strcpy(dta.szTip, "BNETD-X");
 		strcat(dta.szTip, " ");
 		strcat(dta.szTip, BNETD_VERSION);
 		Shell_NotifyIcon(NIM_ADD, &dta);
